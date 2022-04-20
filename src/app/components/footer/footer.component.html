@@ -4,11 +4,8 @@
             Drew Post © 2022
         </span>
         <div class="footer__container-links">
-            <a class="footer__link" href="https://www.linkedin.com/in/drew-post" target="_blank" rel="noopener noreferrer">
-                LinkedIn
-            </a>
-            <a class="footer__link" href="https://github.com/drew-post" target="_blank" rel="noopener noreferrer">
-                Github
+            <a *ngFor="let footerItem of footerItems" href="{{footerItem.link}}" target="_blank" rel="noopener noreferrer">
+                <button class="footer__link--{{footerItem.imagePath}}"></button>
             </a>
         </div>
     </div>
