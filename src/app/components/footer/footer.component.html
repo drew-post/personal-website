@@ -5,7 +5,7 @@
         </span>
         <div class="footer__container-links">
             <a *ngFor="let footerItem of footerItems" href="{{footerItem.link}}" target="_blank" rel="noopener noreferrer">
-                <button class="footer__link--{{footerItem.imagePath}}"></button>
+                <button class="footer__link--{{footerItem.imagePath}}" title="{{ footerItem.title }}"></button>
             </a>
         </div>
     </div>
