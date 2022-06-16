@@ -1,7 +1,10 @@
 <div class="projects">
     <div class="projects__container">
-        <a *ngFor="let projectItem of projectItems" class="header__nav--link" routerLink="{{ projectItem.route }}" routerLinkActive="active">
-            <button class="projects__link--{{ projectItem.imagePath }}" title="{{ projectItem.title }}"></button>
-        </a>
+        <div *ngFor="let projectItem of projectItems">
+            <a routerLink="{{ projectItem.route }}" routerLinkActive="active">
+                <button class="projects__link--{{ projectItem.imagePath }}" title="{{ projectItem.title }}"></button>
+                <p class="projects__title-text">{{projectItem.title}}</p>
+            </a> 
+        </div>
     </div>
 </div>

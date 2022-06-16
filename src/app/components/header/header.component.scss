@@ -30,4 +30,20 @@
             font-size: 18px;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        &__background {
+            padding: 30px 20px 30px 10px;
+        }
+
+        &__nav {
+            &--title {
+                padding-right: 30px;
+            }
+    
+            &--link {
+                padding-right: 20px;
+            }
+        }
+    }
 }

@@ -1,6 +1,14 @@
 :host .projects {
     padding: 30px 0 30px 40px;
 
+    a:link { text-decoration: none; }
+
+    a:visited { text-decoration: none; }
+
+    a:hover { text-decoration: none; }
+
+    a:active { text-decoration: none; }
+
     &__container {
         display: flex;
         flex-direction: row;
@@ -11,19 +19,47 @@
     &__link {
         &--andioop {
             margin-right: 50px;
-            height: 400px;
-            width: 400px;
+            height: 350px;
+            width: 370px;
             border: none;
             cursor: pointer;
             background: url('../../images/andIOopInfo.jpg') no-repeat;  
         }
         &--meetTheTeam {
             margin-right: 50px;
-            height: 400px;
-            width: 400px;
+            height: 350px;
+            width: 370px;
             border: none;
             cursor: pointer;
             background: url('../../images/meetTheTeamHomepage.jpg') no-repeat;  
+        }
+    }
+
+    &__title-text {
+        margin-top: 10px;
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        padding: 30px 0 30px 32px;
+
+        &__container {
+            flex-direction: column;
+        }
+
+        &__link {
+            &--andioop {
+                height: 270px;
+                width: 290px;
+                background: url('../../images/andIOopInfoCompressed.jpg') no-repeat;  
+            }
+            &--meetTheTeam {
+                height: 270px;
+                width: 290px;
+                background: url('../../images/meetTheTeamHomepageCompressed.jpg') no-repeat;  
+            }
         }
     }
 }

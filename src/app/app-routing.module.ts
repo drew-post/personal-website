@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { AboutComponent } from './components/about/about.component';
-import { AndioopComponent } from './andioop/andioop.component';
-import { MeetTheTeamComponent } from './meet-the-team/meet-the-team.component';
+import { AndioopComponent } from './components/andioop/andioop.component';
+import { MeetTheTeamComponent } from './components/meet-the-team/meet-the-team.component';
 
 const routes: Routes = [
   { 
