@@ -9,8 +9,10 @@
     }
 
     &__drew-image {
-        width: 250px;
+        width: 925px;
         height: 250px;
+        border: none;
+        background: url("../../../assets/images/drew.jpg") no-repeat;
         border-radius: 50%;
         margin-right: 50px;
     }
@@ -48,6 +50,7 @@
             width: 150px;
             height: 150px;
             margin: 0px 0px 25px 0px;
+            background: url("../../../assets/images/drewCompressed.jpg") no-repeat;
         }
     }
 }
