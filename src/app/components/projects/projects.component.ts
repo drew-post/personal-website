@@ -18,6 +18,11 @@ export class ProjectsComponent implements OnInit {
       title: "Meet the Team Project",
       route: "meettheteam",
       imagePath: "meetTheTeam"
+    },
+    {
+      title: "My Personal Website",
+      route: "personalwebsite",
+      imagePath: "personalWebsite"
     }
   ]
 

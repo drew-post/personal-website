@@ -11,6 +11,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { AboutComponent } from './components/about/about.component';
 import { AndioopComponent } from './components/andioop/andioop.component';
 import { MeetTheTeamComponent } from './components/meet-the-team/meet-the-team.component';
+import { PersonalWebsiteComponent } from './components/personal-website/personal-website.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { MeetTheTeamComponent } from './components/meet-the-team/meet-the-team.c
     HeaderComponent,
     AndioopComponent,
     MeetTheTeamComponent,
+    PersonalWebsiteComponent,
   ],
   imports: [
     BrowserModule,

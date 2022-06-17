@@ -28,29 +28,37 @@
         align-items: flex-start;
     }
 
+    &__link-container {
+        padding-right: 50px;
+    }
+
     &__link {
         &--andioop {
-            margin-right: 50px;
             height: 350px;
-            width: 370px;
+            width: 350px;
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/andIOopInfo.jpg') no-repeat;  
         }
         &--meetTheTeam {
-            margin-right: 50px;
             height: 350px;
-            width: 370px;
+            width: 350px;
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/meetTheTeamHomepage.jpg') no-repeat;  
         }
+        &--personalWebsite {
+            height: 350px;
+            width: 350px;
+            border: none;
+            cursor: pointer;
+            background: url('../../../assets/images/personalWebsite.jpg') no-repeat;  
+        }
     }
 
     &__title-text {
-        margin-top: 10px;
+        padding: 10px 0 50px 0;
         font-size: 17px;
-        margin-bottom: 50px;
     }
 
 
@@ -64,13 +72,18 @@
         &__link {
             &--andioop {
                 height: 270px;
-                width: 290px;
+                width: 270px;
                 background: url('../../../assets/images/andIOopInfoCompressed.jpg') no-repeat;  
             }
             &--meetTheTeam {
                 height: 270px;
-                width: 290px;
+                width: 270px;
                 background: url('../../../assets/images/meetTheTeamHomepageCompressed.jpg') no-repeat;  
+            }
+            &--personalWebsite {
+                height: 270px;
+                width: 270px;
+                background: url('../../../assets/images/personalWebsiteCompressed.jpg') no-repeat;
             }
         }
     }

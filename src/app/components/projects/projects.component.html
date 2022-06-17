@@ -1,6 +1,6 @@
 <div class="projects">
     <div class="projects__container">
-        <div *ngFor="let projectItem of projectItems">
+        <div class="projects__link-container" *ngFor="let projectItem of projectItems">
             <a routerLink="{{ projectItem.route }}" routerLinkActive="active">
                 <button class="projects__link--{{ projectItem.imagePath }}" title="{{ projectItem.title }}"></button>
                 <p class="projects__title-text">{{projectItem.title}}</p>
