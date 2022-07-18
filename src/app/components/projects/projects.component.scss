@@ -24,6 +24,7 @@
     &__container {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: flex-start;
         align-items: flex-start;
     }
@@ -53,6 +54,13 @@
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/personalWebsite.jpg') no-repeat;  
+        }
+        &--sygnomics {
+            height: 350px;
+            width: 350px;
+            border: none;
+            cursor: pointer;
+            background: url('../../../assets/images/sygnomics.jpg') no-repeat;  
         }
     }
 
@@ -84,6 +92,11 @@
                 height: 270px;
                 width: 270px;
                 background: url('../../../assets/images/personalWebsiteCompressed.jpg') no-repeat;
+            }
+            &--sygnomics {
+                height: 270px;
+                width: 270px;
+                background: url('../../../assets/images/sygnomicsCompressed.jpg') no-repeat;
             }
         }
     }

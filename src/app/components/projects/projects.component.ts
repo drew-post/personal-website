@@ -10,6 +10,16 @@ export class ProjectsComponent implements OnInit {
 
   projectItems: ProjectItem[] = [
     {
+      title: "Sygnomics Internship Project",
+      route: "sygnomics",
+      imagePath: "sygnomics"
+    },
+    {
+      title: "My Personal Website",
+      route: "personalwebsite",
+      imagePath: "personalWebsite"
+    },
+    {
       title: "andioop Discord Bot",
       route: "andioop",
       imagePath: "andioop"
@@ -18,11 +28,6 @@ export class ProjectsComponent implements OnInit {
       title: "Meet the Team Project",
       route: "meettheteam",
       imagePath: "meetTheTeam"
-    },
-    {
-      title: "My Personal Website",
-      route: "personalwebsite",
-      imagePath: "personalWebsite"
     }
   ]
 
