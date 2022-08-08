@@ -14,6 +14,7 @@
         border: none;
         background: url("../../../assets/images/drew.jpg") no-repeat;
         border-radius: 100%;
+        padding-right: 110px;
     }
 
     &__bio-section {
@@ -27,8 +28,8 @@
         font-size: 20px;
     }
 
-    &__bio-text {
-        white-space: pre-line;
+    &__link {
+        text-decoration: none;
     }
 
     @media screen and (max-width: 768px) {
