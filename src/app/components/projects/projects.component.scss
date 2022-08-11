@@ -39,28 +39,32 @@
             width: 350px;
             border: none;
             cursor: pointer;
-            background: url('../../../assets/images/andIOopInfo.jpg') no-repeat;  
+            background: url('../../../assets/images/andIOopInfo.jpg') no-repeat;
+            background-size: cover  
         }
         &--meetTheTeam {
             height: 350px;
             width: 350px;
             border: none;
             cursor: pointer;
-            background: url('../../../assets/images/meetTheTeamHomepage.jpg') no-repeat;  
+            background: url('../../../assets/images/meetTheTeamHomepage.jpg') no-repeat;
+            background-size: cover  
         }
         &--personalWebsite {
             height: 350px;
             width: 350px;
             border: none;
             cursor: pointer;
-            background: url('../../../assets/images/personalWebsite.jpg') no-repeat;  
+            background: url('../../../assets/images/personalWebsite.jpg') no-repeat; 
+            background-size: cover 
         }
         &--sygnomics {
             height: 350px;
             width: 350px;
             border: none;
             cursor: pointer;
-            background: url('../../../assets/images/sygnomics.jpg') no-repeat;  
+            background: url('../../../assets/images/sygnomics.jpg') no-repeat;
+            background-size: cover  
         }
     }
 
@@ -83,26 +87,18 @@
             &--andioop {
                 height: 270px;
                 width: 270px;
-                background: url('../../../assets/images/andIOopInfo.jpg') no-repeat;
-                background-size: cover;
             }
             &--meetTheTeam {
                 height: 270px;
-                width: 270px;
-                background: url('../../../assets/images/meetTheTeamHomepage.jpg') no-repeat;
-                background-size: cover;  
+                width: 270px;;  
             }
             &--personalWebsite {
                 height: 270px;
                 width: 270px;
-                background: url('../../../assets/images/personalWebsite.jpg') no-repeat;
-                background-size: cover;
             }
             &--sygnomics {
                 height: 270px;
                 width: 270px;
-                background: url('../../../assets/images/sygnomics.jpg') no-repeat;
-                background-size: cover;
             }
         }
     }
