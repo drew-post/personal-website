@@ -76,28 +76,33 @@
 
         &__container {
             flex-direction: column;
+            justify-content: center;
         }
 
         &__link {
             &--andioop {
                 height: 270px;
                 width: 270px;
-                background: url('../../../assets/images/andIOopInfoCompressed.jpg') no-repeat;  
+                background: url('../../../assets/images/andIOopInfo.jpg') no-repeat;
+                background-size: cover;
             }
             &--meetTheTeam {
                 height: 270px;
                 width: 270px;
-                background: url('../../../assets/images/meetTheTeamHomepageCompressed.jpg') no-repeat;  
+                background: url('../../../assets/images/meetTheTeamHomepage.jpg') no-repeat;
+                background-size: cover;  
             }
             &--personalWebsite {
                 height: 270px;
                 width: 270px;
-                background: url('../../../assets/images/personalWebsiteCompressed.jpg') no-repeat;
+                background: url('../../../assets/images/personalWebsite.jpg') no-repeat;
+                background-size: cover;
             }
             &--sygnomics {
                 height: 270px;
                 width: 270px;
-                background: url('../../../assets/images/sygnomicsCompressed.jpg') no-repeat;
+                background: url('../../../assets/images/sygnomics.jpg') no-repeat;
+                background-size: cover;
             }
         }
     }
