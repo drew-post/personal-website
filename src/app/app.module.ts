@@ -13,6 +13,7 @@ import { AndioopComponent } from './components/andioop/andioop.component';
 import { MeetTheTeamComponent } from './components/meet-the-team/meet-the-team.component';
 import { PersonalWebsiteComponent } from './components/personal-website/personal-website.component';
 import { SygnomicsComponent } from './components/sygnomics/sygnomics.component';
+import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SygnomicsComponent } from './components/sygnomics/sygnomics.component';
     MeetTheTeamComponent,
     PersonalWebsiteComponent,
     SygnomicsComponent,
+    ComingSoonComponent,
   ],
   imports: [
     BrowserModule,
