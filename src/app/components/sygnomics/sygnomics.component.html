@@ -1,4 +1,27 @@
 <div class="sygnomics">
-    <coming-soon></coming-soon>
-    <a href="https://www.slalombuild.com/our-work/sygnomics" target="_blank">Find out more about this project here.</a>
+    <div class="sygnomics__container">
+        <h2 class="sygnomics__title">{{projectDetails.title}}</h2>
+        <div class="sygnomics__desc-container">
+            <p>Find out more detailed information about this project in this </p>
+            <a href={{projectDetails.link}} class="sygnomics__link" target="_blank">case study</a>
+            <p>on the Slalom Build website.</p>
+        </div>
+        <div class="sygnomics__desc-container">
+            <h4 class="sygnomics__second-title">
+                Tech Stack:
+            </h4>
+            <p class="sygnomics__description">
+                React, TypeScript, Amazon DynamoDB, Amazon Simple Storage Service (Amazon S3), AWS Lambda, Amazon CloudFront, Amazon Cognito
+            </p>
+        </div>
+        <div class="sygnomics__desc-container">
+            <p class="sygnomics__description">
+               During my Summer 2021 internship, a team of fourteen Chicago, Seattle, and Houston interns from Slalom Build worked on the internship program's first client facing project for a client called Sygnomics. Sygnomics is a startup that has created a machine learning algorithm (SYGNAL) which provides oncologists with information about a patient's cancer as well as possible options for their treatment. The problem that they came to Slalom Build to solve involved creating a user interface to better display insights from the algorithm to oncologists in an easy and intuitive way.<br><br>
+
+               Our solution was a SYGNAL prototype that allowed an oncologist to create an account, log in, view a list of their patients in a patient portal, and view a detailed dashboard of information about each patient that includes specifics from the SYGNAL algorithm. This involved building endpoints that would grab patient, oncologist, and therapy information from a mock database and sending it to our frontend UI, which we built to display key information to the user. I worked fullstack on this project, first establishing these endpoints and then building some of the frontend components of the UI towards the end of the engagement.<br><br>
+               
+               This project allowed me to experience for the first time what it's like to collaborate as a team with a client to build a product that best suits their needs. Not only did this internship build my confidence as a new engineer, but it taught me what it means to put continuous delivery in practice as a client better understands their product and message.
+            </p>
+        </div>
+    </div>
 </div>
