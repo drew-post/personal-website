@@ -28,6 +28,11 @@ export class ProjectsComponent implements OnInit {
       title: "Meet the Team Project",
       route: "meettheteam",
       imagePath: "meetTheTeam"
+    },
+    {
+      title: "Target Sum Game Project",
+      route: "targetsumgame",
+      imagePath: "targetSumGame"
     }
   ]
 

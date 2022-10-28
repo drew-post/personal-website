@@ -14,6 +14,7 @@ import { MeetTheTeamComponent } from './components/meet-the-team/meet-the-team.c
 import { PersonalWebsiteComponent } from './components/personal-website/personal-website.component';
 import { SygnomicsComponent } from './components/sygnomics/sygnomics.component';
 import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
+import { TargetSumGameComponent } from './components/target-sum-game/target-sum-game.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ComingSoonComponent } from './components/coming-soon/coming-soon.compon
     PersonalWebsiteComponent,
     SygnomicsComponent,
     ComingSoonComponent,
+    TargetSumGameComponent,
   ],
   imports: [
     BrowserModule,

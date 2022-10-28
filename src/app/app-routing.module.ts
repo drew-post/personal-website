@@ -7,6 +7,7 @@ import { AndioopComponent } from './components/andioop/andioop.component';
 import { MeetTheTeamComponent } from './components/meet-the-team/meet-the-team.component';
 import { PersonalWebsiteComponent } from './components/personal-website/personal-website.component';
 import { SygnomicsComponent } from './components/sygnomics/sygnomics.component';
+import { TargetSumGameComponent } from './components/target-sum-game/target-sum-game.component';
 
 const routes: Routes = [
   { 
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'projects/sygnomics',
     component: SygnomicsComponent
+  },
+  {
+    path: 'projects/targetsumgame',
+    component: TargetSumGameComponent
   },
   {
     path: '',

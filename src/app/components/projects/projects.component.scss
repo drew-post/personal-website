@@ -66,6 +66,14 @@
             background: url('../../../assets/images/sygnomics.jpg') no-repeat;
             background-size: cover  
         }
+        &--targetSumGame {
+            height: 350px;
+            width: 350px;
+            border: none;
+            cursor: pointer;
+            background: url('../../../assets/images/targetSumGame.jpg') no-repeat;
+            background-size: cover 
+        }
     }
 
     &__title-text {
