@@ -10,7 +10,7 @@ export class SygnomicsComponent implements OnInit {
 
   projectDetails: ProjectDetailsItem = {
     title: "Sygnomics Internship Project — Summer 2021",
-    link: "https://www.slalombuild.com/our-work/sygnomics"
+    link: "https://www.slalombuild.com/our-work/sygnomics",
   }
 
   constructor() { }
