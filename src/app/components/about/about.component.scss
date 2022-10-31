@@ -8,14 +8,15 @@
         justify-content: space-between;
     }
 
-    &__drew-image {
-        width: 600px;
+    &__image-container {
+        object-position: left center;
+        width: 250px;
         height: 250px;
-        border: none;
-        background: url("../../../assets/images/drew.jpg") no-repeat;
-        background-size: cover;
+    }
+
+    &__drew-image {
+        position: relative;
         border-radius: 100%;
-        padding-right: 110px;
     }
 
     &__bio-section {
@@ -50,6 +51,11 @@
             padding: 0px;
             align-content: center;
             margin: 0px;
+        }
+
+        &__image-container {
+            width: 150px;
+            height: 150px;
         }
 
         &__drew-image {
