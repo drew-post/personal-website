@@ -74,6 +74,14 @@
             background: url('../../../assets/images/targetSumGame.jpg') no-repeat;
             background-size: cover 
         }
+        &--bakesaleApp {
+            height: 350px;
+            width: 350px;
+            border: none;
+            cursor: pointer;
+            background: url('../../../assets/images/bakeSale.jpg') no-repeat;
+            background-size: cover 
+        }
     }
 
     &__title-text {

@@ -30,9 +30,14 @@ export class ProjectsComponent implements OnInit {
       imagePath: "meetTheTeam"
     },
     {
-      title: "Target Sum Game Project",
+      title: "Target Sum Game",
       route: "targetsumgame",
       imagePath: "targetSumGame"
+    },
+    {
+      title: "Bakesale For Good App",
+      route: "bakesaleapp",
+      imagePath: "bakesaleApp"
     }
   ]
 

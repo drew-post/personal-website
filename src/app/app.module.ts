@@ -15,6 +15,7 @@ import { PersonalWebsiteComponent } from './components/personal-website/personal
 import { SygnomicsComponent } from './components/sygnomics/sygnomics.component';
 import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
 import { TargetSumGameComponent } from './components/target-sum-game/target-sum-game.component';
+import { BakesaleAppComponent } from './components/bakesale-app/bakesale-app.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { TargetSumGameComponent } from './components/target-sum-game/target-sum-
     SygnomicsComponent,
     ComingSoonComponent,
     TargetSumGameComponent,
+    BakesaleAppComponent,
   ],
   imports: [
     BrowserModule,

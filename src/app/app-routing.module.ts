@@ -8,6 +8,7 @@ import { MeetTheTeamComponent } from './components/meet-the-team/meet-the-team.c
 import { PersonalWebsiteComponent } from './components/personal-website/personal-website.component';
 import { SygnomicsComponent } from './components/sygnomics/sygnomics.component';
 import { TargetSumGameComponent } from './components/target-sum-game/target-sum-game.component';
+import { BakesaleAppComponent } from './components/bakesale-app/bakesale-app.component'
 
 const routes: Routes = [
   { 
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'projects/targetsumgame',
     component: TargetSumGameComponent
+  },
+  {
+    path: 'projects/bakesaleapp',
+    component: BakesaleAppComponent
   },
   {
     path: '',
