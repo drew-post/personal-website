@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProjectItem } from 'src/app/models/projectItem.model';
 
 @Component({
-  selector: 'projects',
+  selector: 'my-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss']
 })
@@ -30,7 +30,7 @@ export class ProjectsComponent implements OnInit {
       imagePath: "meetTheTeam"
     },
     {
-      title: "Target Sum Game",
+      title: "Target Sum Mobile Game",
       route: "targetsumgame",
       imagePath: "targetSumGame"
     },

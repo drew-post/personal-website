@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-andioop',
+  selector: 'and-i-oop',
   templateUrl: './andioop.component.html',
   styleUrls: ['./andioop.component.scss']
 })

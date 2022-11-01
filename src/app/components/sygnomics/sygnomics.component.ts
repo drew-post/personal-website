@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProjectDetailsItem } from 'src/app/models/projectDetailsItem.model';
 
 @Component({
-  selector: 'app-sygnomics',
+  selector: 'sygnomics-project',
   templateUrl: './sygnomics.component.html',
   styleUrls: ['./sygnomics.component.scss']
 })
