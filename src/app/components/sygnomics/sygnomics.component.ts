@@ -9,7 +9,7 @@ import { ProjectDetailsItem } from 'src/app/models/projectDetailsItem.model';
 export class SygnomicsComponent implements OnInit {
 
   projectDetails: ProjectDetailsItem = {
-    title: "Sygnomics Internship Project — Summer 2021",
+    title: "Slalom Build: Sygnomics Internship Project",
     link: "https://www.slalombuild.com/our-work/sygnomics",
   }
 
