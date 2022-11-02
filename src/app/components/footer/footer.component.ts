@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FooterItem } from 'src/app/models/footerItem.model';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'pw-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'meet-the-team',
+  selector: 'pw-meet-the-team',
   templateUrl: './meet-the-team.component.html',
   styleUrls: ['./meet-the-team.component.scss']
 })

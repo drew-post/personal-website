@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { AboutComponent } from './components/about/about.component';
-import { AndioopComponent } from './components/andioop/andioop.component';
+import { AndIOopComponent } from './components/andioop/andioop.component';
 import { MeetTheTeamComponent } from './components/meet-the-team/meet-the-team.component';
 import { PersonalWebsiteComponent } from './components/personal-website/personal-website.component';
 import { SygnomicsComponent } from './components/sygnomics/sygnomics.component';
@@ -25,7 +25,7 @@ const routes: Routes = [
   },
   { 
     path: 'projects/andioop', 
-    component: AndioopComponent 
+    component: AndIOopComponent 
   },
   { 
     path: 'projects/meettheteam', 

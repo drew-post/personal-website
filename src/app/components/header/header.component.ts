@@ -3,7 +3,7 @@ import {RouterModule} from '@angular/router';
 import { HeaderItem } from 'src/app/models/headerItem.model';
 
 @Component({
-  selector: 'app-header',
+  selector: 'pw-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })

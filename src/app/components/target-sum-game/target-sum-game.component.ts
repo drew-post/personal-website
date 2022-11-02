@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'target-sum-game',
+  selector: 'pw-target-sum-game',
   templateUrl: './target-sum-game.component.html',
   styleUrls: ['./target-sum-game.component.scss']
 })

@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ProjectItem } from 'src/app/models/projectItem.model';
 
 @Component({
-  selector: 'my-projects',
+  selector: 'pw-my-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.scss']
 })

@@ -9,7 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { AboutComponent } from './components/about/about.component';
-import { AndioopComponent } from './components/andioop/andioop.component';
+import { AndIOopComponent } from './components/andioop/andioop.component';
 import { MeetTheTeamComponent } from './components/meet-the-team/meet-the-team.component';
 import { PersonalWebsiteComponent } from './components/personal-website/personal-website.component';
 import { SygnomicsComponent } from './components/sygnomics/sygnomics.component';
@@ -25,7 +25,7 @@ import { BakesaleAppComponent } from './components/bakesale-app/bakesale-app.com
     ProjectsComponent,
     AboutComponent,
     HeaderComponent,
-    AndioopComponent,
+    AndIOopComponent,
     MeetTheTeamComponent,
     PersonalWebsiteComponent,
     SygnomicsComponent,
