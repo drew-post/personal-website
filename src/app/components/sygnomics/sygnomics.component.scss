@@ -41,9 +41,6 @@
     }
 
     &__tech-stack-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         padding-bottom: 15px;
     }
 
@@ -52,14 +49,6 @@
         flex-direction: row;
         align-items: center;
         padding-bottom: 15px;
-    }
-
-    &__second-title {
-        font-weight: 600;
-        padding-right: 8px;
-        margin: 0;
-        white-space: nowrap;
-        align-self: flex-start;
     }
 
     &__description {
@@ -80,8 +69,6 @@
         }
 
         &__tech-stack-container {
-            flex-direction: column;
-            align-items: flex-start;
             padding-bottom: 30px;
         }
 

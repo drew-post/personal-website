@@ -16,6 +16,7 @@ import { SygnomicsComponent } from './components/sygnomics/sygnomics.component';
 import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
 import { TargetSumGameComponent } from './components/target-sum-game/target-sum-game.component';
 import { BakesaleAppComponent } from './components/bakesale-app/bakesale-app.component';
+import { TechStackLabelComponent } from './components/common/tech-stack-label/tech-stack-label.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { BakesaleAppComponent } from './components/bakesale-app/bakesale-app.com
     ComingSoonComponent,
     TargetSumGameComponent,
     BakesaleAppComponent,
+    TechStackLabelComponent,
   ],
   imports: [
     BrowserModule,
