@@ -1,5 +1,8 @@
 <div class="projects">
     <div class="projects__container">
+        <div class="projects__header-container">
+            <img class="projects__header-image" src="assets/images/projectHeader.gif" />
+        </div>
         <div class="projects__link-container" *ngFor="let projectItem of projectItems">
             <a routerLink="{{ projectItem.route }}" routerLinkActive="active">
                 <button class="projects__link--{{ projectItem.imagePath }}" title="{{ projectItem.title }}"></button>
