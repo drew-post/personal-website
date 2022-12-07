@@ -1,38 +1,77 @@
 :host .home-page {
-    padding: 10px 0 30px 40px;
+    width: 100%;
+    height: 700px;
+
+    &__container {
+        width: 100%;
+        height: 100%;
+        background-image: url("../../../assets/images/homePageBackground.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
     &__text-container {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
+        align-items: center;
+        padding-top: 15%;
     }
 
     &__title {
-        font-weight: 500;
-        padding-bottom: 100px;
+        width: 75%;
+        height: 75%;
+        padding-bottom: 5%;
     }
 
-    &__home-image {
-        width: 490px;
-        height: 250px;
-        border: none;
-        background: url("../../../assets/images/drew.jpg") no-repeat;
-        margin-right: 50px;
+    &__route-container {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
 
-    &__route {
-        color: var(--black);
-        text-align: center;
-        margin-bottom: 15px;
-        font-size: 18px;
+    &__about-route {
+        width: 228px;
+        height: 62px;
+        background: url("../../../assets/images/aboutMeLink.png");
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
-    @media screen and (max-width: 768px) {
-        padding: 10px 40px 30px 40px;
+    &__work-route {
+        width: 228px;
+        height: 72px;
+        background: url("../../../assets/images/viewWorkLink.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+
+    @media screen and (max-width: 1024px) {
+        height: 100%;
+
+        &__container {
+            background-image: none;
+        }
+
+        &__text-container {
+            align-items: center;
+            padding: 5%;
+        }
 
         &__title {
-            font-size: 22px;
+            width: 95%;
+            height: 95%;
+            padding-bottom: 10%;
+        }
+
+        &__about-route {
+            width: 100%;
+            height: 30px;
+        }
+
+        &__work-route {
+            width: 100px;
+            height: 40px;
         }
     }
 }

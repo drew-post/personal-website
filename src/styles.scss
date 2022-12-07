@@ -2,6 +2,12 @@
     font-family: 'Fraunces', serif;
 }
 
+html {
+    background-image: url('./assets/images/background.png');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
 html, body, h1, h2, p, div, button {
     padding: 0;
     margin: 0;
