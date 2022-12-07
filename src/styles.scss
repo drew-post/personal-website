@@ -3,9 +3,8 @@
 }
 
 html {
-    background-image: url('./assets/images/background.png');
-    background-size: cover;
-    background-repeat: repeat;
+    background: url('./assets/images/background.png') center center;
+    background-size: 100%;
 }
 
 html, body, h1, h2, p, div, button {
