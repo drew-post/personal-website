@@ -14,13 +14,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 15%;
+        padding-top: 14%;
     }
 
     &__title {
-        width: 75%;
-        height: 75%;
-        padding-bottom: 5%;
+        width: 53%;
+        height: 53%;
+        padding-bottom: 4%;
     }
 
     &__route-container {
@@ -32,6 +32,7 @@
     &__about-route {
         width: 228px;
         height: 60px;
+        margin-left: 7px;
         background: url("../../../assets/images/aboutMeLink.png");
         background-repeat: no-repeat;
         background-size: contain;
@@ -65,13 +66,13 @@
         }
 
         &__about-route {
-            width: 100%;
-            height: 28px;
+            width: 120px;
+            height: 32px;
         }
 
         &__work-route {
-            width: 100px;
-            height: 40px;
+            width: 120px;
+            height: 100px;
         }
 
         &__mobile-picture-container {
