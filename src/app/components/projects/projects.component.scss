@@ -49,7 +49,7 @@
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/andIOopInfo.jpg') no-repeat;
-            background-size: cover  
+            background-size: contain;  
         }
         &--meetTheTeam {
             height: 350px;
@@ -57,7 +57,7 @@
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/meetTheTeamHomepage.jpg') no-repeat;
-            background-size: cover  
+            background-size: contain;  
         }
         &--personalWebsite {
             height: 350px;
@@ -65,7 +65,7 @@
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/personalWebsite.jpg') no-repeat; 
-            background-size: cover 
+            background-size: cover; 
         }
         &--sygnomics {
             height: 350px;
@@ -73,7 +73,7 @@
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/sygnomics.jpg') no-repeat;
-            background-size: cover  
+            background-size: contain;
         }
         &--targetSumGame {
             height: 350px;
@@ -81,7 +81,7 @@
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/targetSumGame.jpg') no-repeat;
-            background-size: cover 
+            background-size: contain;
         }
         &--bakesaleApp {
             height: 350px;
@@ -89,7 +89,7 @@
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/bakeSale.jpg') no-repeat;
-            background-size: cover 
+            background-size: contain;
         }
     }
 
