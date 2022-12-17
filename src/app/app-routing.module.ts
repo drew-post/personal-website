@@ -1,51 +1,42 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomePageComponent } from './components/home-page/home-page.component';
-import { ProjectsComponent } from './components/projects/projects.component';
-import { AboutComponent } from './components/about/about.component';
-import { AndIOopComponent } from './components/andioop/andioop.component';
-import { MeetTheTeamComponent } from './components/meet-the-team/meet-the-team.component';
-import { PersonalWebsiteComponent } from './components/personal-website/personal-website.component';
-import { SygnomicsComponent } from './components/sygnomics/sygnomics.component';
-import { TargetSumGameComponent } from './components/target-sum-game/target-sum-game.component';
-import { BakesaleAppComponent } from './components/bakesale-app/bakesale-app.component'
 
 const routes: Routes = [
   { 
     path: 'home', 
-    component: HomePageComponent 
+    loadChildren: () => import('./components/home-page/home-page.module').then(m => m.HomePageModule),
   },
   { 
     path: 'projects', 
-    component: ProjectsComponent 
+    loadChildren: () => import('./components/projects/projects.module').then(m => m.ProjectsModule),
   },
   {
     path: 'about',
-    component: AboutComponent
+    loadChildren: () => import('./components/about/about.module').then(m => m.AboutModule),
   },
   { 
     path: 'projects/andioop', 
-    component: AndIOopComponent 
+    loadChildren: () => import('./components/andioop/andioop.module').then(m => m.AndIOopModule)
   },
   { 
     path: 'projects/meettheteam', 
-    component: MeetTheTeamComponent 
+    loadChildren: () => import('./components/meet-the-team/meet-the-team.module').then(m => m.MeetTheTeamModule),
   },
   {
     path: 'projects/personalwebsite',
-    component: PersonalWebsiteComponent
+    loadChildren: () => import('./components/personal-website/personal-website.module').then(m => m.PersonalWebsiteModule),
   },
   {
     path: 'projects/sygnomics',
-    component: SygnomicsComponent
+    loadChildren: () => import('./components/sygnomics/sygnomics.module').then(m => m.SygnomicsModule),
   },
   {
     path: 'projects/targetsumgame',
-    component: TargetSumGameComponent
+    loadChildren: () => import('./components/target-sum-game/target-sum-game.module').then(m => m.TargetSumGameModule),
   },
   {
     path: 'projects/bakesaleapp',
-    component: BakesaleAppComponent
+    loadChildren: () => import('./components/bakesale-app/bakesale-app.module').then(m => m.BakesaleAppModule)
   },
   {
     path: '',
