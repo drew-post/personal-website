@@ -5,7 +5,11 @@
             <p>Find out more detailed information about this project in <a href={{projectDetails.link}} target="_blank">this</a> case study on the Slalom Build website.</p>
         </div>
         <div class="sygnomics__tech-stack-container">
-            <pw-tech-stack-label [techDescription]="projectDetails.techDescription"></pw-tech-stack-label>
+            <pw-project-label 
+            [title]="'Tech Stack'"
+            [description]="projectDetails.techDescription"
+            >
+            </pw-project-label>
         </div>
         <div class="sygnomics__desc-container">
             <p class="sygnomics__description">

@@ -1,0 +1,14 @@
+<div class="tech-stack-label">
+    <h4 class="tech-stack-label__title">
+        {{title}}:
+    </h4>
+    <p *ngIf="!isLink" class="tech-stack-label__description">
+        {{description}}
+    </p>
+    <a *ngIf="isLink && description" class="tech-stack-label__description" href={{link}} target="_blank" >
+        {{description}}
+    </a>
+    <a *ngIf="isLink && !description" class="tech-stack-label__description" href={{link}} target="_blank" >
+        {{link}}
+    </a>
+</div>

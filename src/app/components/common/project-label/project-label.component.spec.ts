@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TechStackLabelComponent } from './tech-stack-label.component';
+import { ProjectLabelComponent } from './project-label.component';
 
-describe('TechStackLabelComponent', () => {
-  let component: TechStackLabelComponent;
-  let fixture: ComponentFixture<TechStackLabelComponent>;
+describe('ProjectLabelComponent', () => {
+  let component: ProjectLabelComponent;
+  let fixture: ComponentFixture<ProjectLabelComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TechStackLabelComponent ]
+      declarations: [ ProjectLabelComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TechStackLabelComponent);
+    fixture = TestBed.createComponent(ProjectLabelComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
