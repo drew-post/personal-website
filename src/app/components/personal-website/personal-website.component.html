@@ -1,3 +1,30 @@
 <div class="personal-website">
-    <pw-coming-soon></pw-coming-soon>
+    <div class="personal-website__text-container">
+        <h2 class="personal-website__title">{{projectDetails.title}}</h2>
+        <div class="personal-website__tech-stack-container">
+            <pw-project-label 
+            [title]="'Tech Stack'"
+            [description]="projectDetails.techDescription"
+            >
+            </pw-project-label>
+        </div>
+        <div class="personal-website__desc-container">
+            <p class="personal-website__description">
+               Welcome to my personal website porfolio! I started this project in 2021 as a way to explore more creative 
+               ways to use Angular, HTML, and CSS. I'm using Angular specifically to manage routes and lazy loading specifically, I'm using
+               Canva for some of the graphics, such as the homepage, and I'm using Github pages to host the website on Github. 
+               By managing this project, I'm hoping to continue to learn and iterate on coding best practices as well as experiment with
+               design in a contained way.<br><br>
+               Some next steps and improvements I want to make include building out existing/new project pages,
+               further optimizing the way the website handles comoponents/component structure,
+               potentially enhancing image quality/GIF quality,
+               adding animations, and continuing to come up with new, creative ideas for pages on the website. 
+               <br><br>
+               Thank you for visiting!
+            </p>
+        </div>
+    </div>
+    <div class="personal-website__picture-container">
+        <img class="personal-website__image" src="assets/images/personalWebsiteTour.gif"/>
+    </div>
 </div>
