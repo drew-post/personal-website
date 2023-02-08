@@ -125,7 +125,6 @@
 
         &__sub-title-first {
             font-size: 19px;
-            padding-right: 10px;
         }
 
         &__sub-title {
@@ -136,8 +135,16 @@
             font-size: 18px;
         }
 
+        &__about-route:hover {
+            font-size: 20px;
+        }
+
         &__work-route {
             font-size: 18px;
+        }
+
+        &__work-route:hover {
+            font-size: 20px;
         }
 
         &__mobile-picture-container {
