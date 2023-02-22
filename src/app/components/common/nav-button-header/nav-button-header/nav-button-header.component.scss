@@ -51,5 +51,9 @@
         &__next-button, &__prev-button {
             font-size: 16px;
         }
+
+        &__next-button:hover, &__prev-button:hover {
+            font-size: 18px;
+        }
     }
 }
