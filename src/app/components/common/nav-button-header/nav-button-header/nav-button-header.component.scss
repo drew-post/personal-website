@@ -1,0 +1,55 @@
+:host .nav-header-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+
+    &__next-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    &__next-button {
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+    }
+    
+    &__next-button:hover {
+        font-family: 'Lora', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    &__prev-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    &__prev-button {
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+    }
+    
+    &__prev-button:hover {
+        font-family: 'Lora', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 0 15px 10px 15px;
+        margin: 0;
+
+        &__next-button, &__prev-button {
+            font-size: 16px;
+        }
+    }
+}

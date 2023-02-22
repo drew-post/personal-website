@@ -1,3 +1,23 @@
+<pw-nav-button-header [previousRoute]="'../personalwebsite'" [nextRoute]="'../meettheteam'"></pw-nav-button-header>
 <div class="and-i-oop">
-    <pw-coming-soon></pw-coming-soon>
+    <div class="and-i-oop__text-container">
+        <div class="and-i-oop__title-container">
+            <h2 class="and-i-oop__title-first">andIOop:</h2>
+            <h2 class="and-i-oop__title-second"> Discord Bot</h2>
+        </div>
+        <div class="and-i-oop__tech-stack-container">
+            <pw-project-label 
+            [title]="'Tech Stack'"
+            [tags]="projectDetails.techDescription"
+            >
+            </pw-project-label>
+        </div>
+        <div class="and-i-oop__desc-container">
+            <p class="and-i-oop__description">
+                text
+            </p>
+        </div>
+    </div>
+    <div class="and-i-oop__picture-container">
+    </div>
 </div>

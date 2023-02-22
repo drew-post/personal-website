@@ -1,0 +1,10 @@
+<div class="nav-header-buttons">
+    <div class="nav-header-buttons__prev-container" *ngIf="previousRoute">
+        <a class="nav-header-buttons__prev-button" routerLink="{{previousRoute}}"> ← Previous
+        </a>
+    </div>
+    <div class="nav-header-buttons__next-container" *ngIf="nextRoute">
+        <a class="nav-header-buttons__next-button" routerLink="{{nextRoute}}"> Next →
+        </a>
+    </div>
+</div>
