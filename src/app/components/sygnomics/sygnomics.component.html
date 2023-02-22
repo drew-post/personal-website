@@ -1,13 +1,19 @@
+<div class="sygnomics-buttons">
+    <a class="sygnomics-buttons__next-button" routerLink="../personalwebsite"> Next →
+    </a>
+</div>
 <div class="sygnomics">
     <div class="sygnomics__text-container">
-        <h2 class="sygnomics__title">{{projectDetails.title}}</h2>
+        <div class="sygnomics__title-container">
+            <h2 class="sygnomics__title-first">Slalom Build: </h2>
+            <h2 class="sygnomics__title-second">Sygnomics Internship Project</h2>
+        </div>
         <div class="sygnomics__find-out-more-container">
-            <p>Find out more detailed information about this project in <a href={{projectDetails.link}} target="_blank">this</a> case study on the Slalom Build website.</p>
+            <p>Find out more detailed information about this project in <a class="sygnomics__find-out-more-link" href={{projectDetails.link}} target="_blank">this</a> case study on the Slalom Build website.</p>
         </div>
         <div class="sygnomics__tech-stack-container">
             <pw-project-label 
-            [title]="'Tech Stack'"
-            [description]="projectDetails.techDescription"
+            [tags]="projectDetails.techDescription"
             >
             </pw-project-label>
         </div>
@@ -23,6 +29,6 @@
     </div>
     <div class="sygnomics__picture-container">
         <img class="sygnomics__sygnomics-image" src="assets/images/sygnomics.jpg"/>
-        <p class="sygnomics__source">Image by Slalom Build via <a href={{projectDetails.link}} target="_blank">website</a>.</p>
+        <p class="sygnomics__source">Image by Slalom Build via <a class="sygnomics__source-link" href={{projectDetails.link}} target="_blank">website</a>.</p>
     </div>
 </div>

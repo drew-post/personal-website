@@ -1,3 +1,59 @@
+:host .personal-website-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+
+    &__next-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    &__next-button {
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+    }
+    
+    &__next-button:hover {
+        font-family: 'Lora', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    &__prev-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    &__prev-button {
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+    }
+    
+    &__prev-button:hover {
+        font-family: 'Lora', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 0 15px 10px 15px;
+        margin: 0;
+
+        &__next-button, &__prev-button {
+            font-size: 16px;
+        }
+    }
+}
+
 :host .personal-website {
     padding: 30px 30px 30px 40px;
     display: flex;
@@ -11,10 +67,24 @@
         padding: 0 10px 10px 10px;
     }
 
-    &__title {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 700;
+    &__title-container {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    
+    &__title-first {
+        font-weight: 600;
         font-style: italic;
+        padding-bottom: 20px;
+        padding-right: 8px;
+    }
+
+    &__title-second {
+        font-family: 'Lora', serif;
+        font-weight: 600;
+        font-style: italic;
+        font-size: 26px;
         padding-bottom: 20px;
     }
 
@@ -58,7 +128,12 @@
         padding: 10px 40px 30px 40px;
         flex-direction: column;
 
-        &__title {
+        &__title-first {
+            font-size: 22px;
+            padding-right: 7px;
+        }
+         
+        &__title-second {
             font-size: 22px;
         }
 
@@ -72,7 +147,7 @@
         }
 
         &__image {
-            width: 400px;
+            width: 350px;
             height: 200px;
         }
     }

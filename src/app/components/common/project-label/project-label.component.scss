@@ -1,30 +1,21 @@
-:host .tech-stack-label {
-    display: flex;
-        flex-direction: row;
+:host .tech-stack-labels {
+    &__container {
         align-items: center;
-    
-    &__title {
+        display: inline-flex;
+        justify-content: center;
+        padding: 5px 0 5px 5px;
+    }
+
+    &__content {
         font-family: 'Poppins', sans-serif;
-        font-weight: 700;
+        font-size: 13px;
+        font-weight: 600;
         font-style: italic;
-        padding-right: 8px;
-        margin: 0;
+        background-color: var(--sage-green);
+        border-radius: 9999px;
+        padding: 5px;
         white-space: nowrap;
-        align-self: flex-start;
-    }
-
-    &__description {
-        font-weight: 500;
-        font-style: italic;
-    }
-
-    @media screen and (max-width: 768px) {
-        flex-direction: column;
-        align-items: flex-start;
-
-        &__title {
-            padding: 0;
-            margin: 10px 0 5px 0;
-        }
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }

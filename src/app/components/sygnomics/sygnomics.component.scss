@@ -1,3 +1,33 @@
+:host .sygnomics-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 50px;
+
+    &__next-button {
+        font-style: italic;
+        font-size: 20px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+    }
+    
+    &__next-button:hover {
+        font-family: 'Lora', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding-right: 15px;
+        padding-bottom: 10px;
+
+        &__next-button {
+            font-size: 16px;
+        }
+    }
+}
+
 :host .sygnomics {
     padding: 30px 30px 30px 55px;
     display: flex;
@@ -24,29 +54,58 @@
     }
 
     &__source {
-        font-family: 'Poppins', sans-serif;
         font-size: 12px;
-        font-weight: 500;
+        font-weight: 400;
         font-style: italic;
     }
 
-    &__title {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 700;
+    &__source-link {
+        font-size: 12px;
+        font-weight: 400;
         font-style: italic;
-        padding-bottom: 10px;
+    }
+
+    &__source-link:hover {
+        font-family: 'Lora', serif;
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    &__title-container {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: baseline;
+        padding-bottom: 5ox;
+    }
+
+    &__title-first {
+        font-family: 'Lora', serif;
+        font-weight: 600;
+        font-style: italic;
+        padding-right: 10px;
+    }
+
+    &__title-second {
+        font-weight: 600;
+        font-style: italic;
     }
 
     &__find-out-more-container {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding-bottom: 15px;
-        font-weight: 500;
+        padding-bottom: 17px;
+        font-weight: 400;
+    }
+
+    &__find-out-more-link:hover {
+        font-family: 'Lora', serif;
+        font-style: italic;
+        font-size: 17px;
     }
 
     &__tech-stack-container {
-        padding-bottom: 30px;
+        padding-bottom: 35px;
     }
 
     &__desc-container {
@@ -54,18 +113,28 @@
         flex-direction: row;
         align-items: center;
         padding-bottom: 15px;
-        font-weight: 500;
     }
 
     &__description {
         align-content: center;
+        font-weight: 400;
     }
 
     @media screen and (max-width: 768px) {
         padding: 10px 40px 30px 40px;
         flex-direction: column;
 
-        &__title {
+        &__title-container {
+            flex-direction: column;
+            padding-bottom: 10px;
+        }
+
+        &__title-first {
+            font-size: 22px;
+            padding-right: 7px;
+        }
+
+        &__title-second {
             font-size: 22px;
         }
 

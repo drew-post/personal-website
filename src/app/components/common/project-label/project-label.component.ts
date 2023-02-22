@@ -6,10 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./project-label.component.scss']
 })
 export class ProjectLabelComponent implements OnInit {
-  @Input() isLink: Boolean = false;
-  @Input() title: String = '';
-  @Input() description?: String = '';
-  @Input() link?: String = '';
+  @Input() tags?: String[] = [];
 
   constructor() { }
 

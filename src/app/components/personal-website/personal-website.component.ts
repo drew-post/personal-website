@@ -10,7 +10,7 @@ export class PersonalWebsiteComponent implements OnInit {
 
   projectDetails: ProjectDetailsItem = {
     title: "My Personal Website",
-    techDescription: "Angular, Typescript, Github Pages",
+    techDescription: ['Angular', 'Typescript', 'Github Pages'],
   }
 
   constructor() { }

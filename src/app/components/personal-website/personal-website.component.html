@@ -1,10 +1,22 @@
+<div class="personal-website-buttons">
+    <div class="personal-website__prev-container">
+        <a class="personal-website-buttons__prev-button" routerLink="../sygnomics"> ← Previous
+        </a>
+    </div>
+    <div class="personal-website__next-container">
+        <a class="personal-website-buttons__next-button" routerLink="../andioop"> Next →
+        </a>
+    </div>
+</div>
 <div class="personal-website">
     <div class="personal-website__text-container">
-        <h2 class="personal-website__title">{{projectDetails.title}}</h2>
+        <div class="personal-website__title-container">
+            <h2 class="personal-website__title-first">My Personal </h2>
+            <h2 class="personal-website__title-second">Website</h2>
+        </div>
         <div class="personal-website__tech-stack-container">
-            <pw-project-label 
-            [title]="'Tech Stack'"
-            [description]="projectDetails.techDescription"
+            <pw-project-label
+            [tags]="projectDetails.techDescription"
             >
             </pw-project-label>
         </div>
