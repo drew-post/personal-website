@@ -87,7 +87,7 @@
             flex-direction: column;
             align-items: center;
         }
-        
+
         &__bio-tagline-first {
             padding-top: 2%;
             font-size: 24px;
@@ -102,10 +102,14 @@
             font-weight: 700;
             font-style: italic;
         }
-    
+
         &__bio-text {
-            font-size: 18px;
+            font-size: 15px;
             font-weight: 400;
+        }
+
+        &__bold {
+          font-size: 15px;
         }
 
         &__bio-section {
