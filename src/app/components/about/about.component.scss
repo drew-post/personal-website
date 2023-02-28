@@ -79,7 +79,7 @@
         font-weight: 700;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1100px) {
         padding: 10px 40px 30px 40px;
 
         &__info-container {
@@ -104,7 +104,7 @@
         }
 
         &__bio-text {
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 400;
         }
 

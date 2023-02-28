@@ -100,7 +100,7 @@
         font-weight: 600;
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1200px) {
         height: 100%;
 
         &__container {
@@ -114,20 +114,20 @@
         }
 
         &__title-first-word {
-            font-size: 35px;
+            font-size: 36px;
         }
 
         &__title {
-            font-size: 35px;
+            font-size: 36px;
         }
 
         &__sub-title-first {
-            font-size: 19px;
+            font-size: 20px;
             padding-right: 5px;
         }
 
         &__sub-title {
-            font-size: 19px;
+            font-size: 20px;
         }
 
         &__about-route {
@@ -159,7 +159,7 @@
             height: 500px;
             background: url("../../../assets/images/homePageBackgroundMobile.png");
             background-repeat: no-repeat;
-            background-size: contain; 
+            background-size: contain;
             background-position: center;
         }
     }
