@@ -1,4 +1,4 @@
-<pw-nav-button-header [nextRoute]="'../personalwebsite'"></pw-nav-button-header>
+<pw-nav-button-header [previousRoute]="'../'" [nextRoute]="'../personalwebsite'"></pw-nav-button-header>
 <div class="sygnomics">
     <div class="sygnomics__text-container">
         <div class="sygnomics__title-container">
@@ -9,7 +9,7 @@
             <p>Find out more detailed information about this project in <a class="sygnomics__find-out-more-link" href={{projectDetails.link}} target="_blank">this</a> case study on the Slalom Build website.</p>
         </div>
         <div class="sygnomics__tech-stack-container">
-            <pw-project-label 
+            <pw-project-label
             [tags]="projectDetails.techDescription"
             >
             </pw-project-label>
@@ -19,8 +19,8 @@
                During my Summer 2021 internship, me and a team of thirteen other Chicago, Seattle, and Houston interns from Slalom Build worked on the internship program's first client facing project for a startup called Sygnomics. Sygnomics has created a machine learning algorithm (SYGNAL) which provides oncologists with information about a patient's cancer as well as possible options for their treatment. The problem that they came to Slalom Build to solve involved creating a user interface to better display insights from the algorithm to oncologists in an easy and intuitive way.<br><br>
 
                Our solution was a SYGNAL prototype that allowed an oncologist to create an account, log in, view a list of their patients in a patient portal, and view a detailed dashboard of information about each patient that includes specifics from the SYGNAL algorithm. This involved building endpoints that would grab patient, oncologist, and therapy information from a mock database and sending it to our frontend UI, which we built to display key information to the user. I worked fullstack on this project, first establishing these endpoints and then building some of the frontend components of the UI towards the end of the engagement.<br><br>
-               
-               This project allowed me to experience for the first time what it's like to collaborate as a team with a client to build a product that best suits their needs. Not only did this internship build my confidence as a new engineer, but it taught me what it means to put continuous delivery in practice as a client better understands their product and message.
+
+               This internship allowed me to experience for the first time what it's like to collaborate as a team with a client to build a product that best suits their needs. Not only did it build my confidence as a new engineer, but it taught me what it means to put continuous delivery in practice as a client better understands their product and message.
             </p>
         </div>
     </div>

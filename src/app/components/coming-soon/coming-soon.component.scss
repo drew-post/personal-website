@@ -10,12 +10,17 @@
         font-style: italic;
         font-size: 50px;
         font-weight: 700;
+        text-align: center;
     }
 
     @media screen and (max-width: 1024px) {
-        &__titleText {
-            font-size: 32px;
-            font-weight: 700;
-        }
+      &__container {
+        padding: 50px;
+      }
+
+      &__titleText {
+          font-size: 32px;
+          font-weight: 700;
+      }
     }
 }

@@ -10,7 +10,7 @@ export class ProjectsComponent implements OnInit {
 
   projectItems: ProjectItem[] = [
     {
-      title: "Slalom Build Sygnomics Internship Project",
+      title: "Sygnomics Internship Project",
       route: "sygnomics",
       imagePath: "sygnomics"
     },
@@ -28,6 +28,16 @@ export class ProjectsComponent implements OnInit {
       title: "Meet the Team Project",
       route: "meettheteam",
       imagePath: "meetTheTeam"
+    },
+    {
+      title: "Chat App",
+      route: "chatapp",
+      imagePath: "chatApp"
+    },
+    {
+      title: "Weather App",
+      route: "weatherapp",
+      imagePath: "weatherApp"
     },
     {
       title: "Target Sum Mobile Game",

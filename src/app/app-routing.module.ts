@@ -2,24 +2,24 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { 
-    path: 'home', 
+  {
+    path: 'home',
     loadChildren: () => import('./components/home-page/home-page.module').then(m => m.HomePageModule),
   },
-  { 
-    path: 'projects', 
+  {
+    path: 'projects',
     loadChildren: () => import('./components/projects/projects.module').then(m => m.ProjectsModule),
   },
   {
     path: 'about',
     loadChildren: () => import('./components/about/about.module').then(m => m.AboutModule),
   },
-  { 
-    path: 'projects/andioop', 
+  {
+    path: 'projects/andioop',
     loadChildren: () => import('./components/andioop/andioop.module').then(m => m.AndIOopModule)
   },
-  { 
-    path: 'projects/meettheteam', 
+  {
+    path: 'projects/meettheteam',
     loadChildren: () => import('./components/meet-the-team/meet-the-team.module').then(m => m.MeetTheTeamModule),
   },
   {
@@ -39,6 +39,14 @@ const routes: Routes = [
     loadChildren: () => import('./components/bakesale-app/bakesale-app.module').then(m => m.BakesaleAppModule)
   },
   {
+    path: 'projects/weatherapp',
+    loadChildren: () => import('./components/weather-app/weather-app.module').then(m =>m.WeatherAppModule)
+  },
+  {
+    path: 'projects/chatapp',
+    loadChildren: () => import('./components/chat-app/chat-app.module').then(m => m.ChatAppModule)
+  },
+  {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full'
@@ -48,7 +56,7 @@ const routes: Routes = [
     redirectTo: '/home',
     pathMatch: 'full'
   }
-]; 
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

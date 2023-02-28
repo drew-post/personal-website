@@ -18,4 +18,10 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
+
+    @media screen and (max-width: 1024px) {
+      &__content {
+        font-size: 12px;
+      }
+    }
 }

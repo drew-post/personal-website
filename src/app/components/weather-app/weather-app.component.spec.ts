@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AndIOopComponent } from './andioop.component';
+import { WeatherAppComponent } from './weather-app.component';
 
-describe('AndioopComponent', () => {
-  let component: AndIOopComponent;
-  let fixture: ComponentFixture<AndIOopComponent>;
+describe('WeatherAppComponent', () => {
+  let component: WeatherAppComponent;
+  let fixture: ComponentFixture<WeatherAppComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AndIOopComponent ]
+      declarations: [ WeatherAppComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AndIOopComponent);
+    fixture = TestBed.createComponent(WeatherAppComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

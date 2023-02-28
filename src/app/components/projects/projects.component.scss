@@ -1,14 +1,14 @@
 :host .projects {
     padding: 30px 0 30px 40px;
 
-    a:link { 
+    a:link {
         text-decoration: none;
         color: var(--black);
     }
 
     a:visited {
         text-decoration: none;
-        color: var(--black); 
+        color: var(--black);
     }
 
     a:hover {
@@ -25,14 +25,14 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
         align-items: center;
+        padding-left: 10%;
     }
 
     &__link-container {
-        padding-right: 100px;
+        padding-right: 10%;
+        align-items: center;
     }
-
     &__link {
         &--andioop {
             height: 350px;
@@ -40,7 +40,8 @@
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/andIOopInfo.jpg') no-repeat;
-            background-size: contain;  
+            background-size: cover;
+            background-position: center;
         }
         &--meetTheTeam {
             height: 350px;
@@ -48,15 +49,16 @@
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/meetTheTeamHomepage.jpg') no-repeat;
-            background-size: contain;  
+            background-size: cover;
+            background-position: center;
         }
         &--personalWebsite {
             height: 350px;
             width: 350px;
             border: none;
             cursor: pointer;
-            background: url('../../../assets/images/personalWebsite.jpg') no-repeat; 
-            background-size: cover; 
+            background: url('../../../assets/images/personalWebsite.jpg') no-repeat;
+            background-size: cover;
         }
         &--sygnomics {
             height: 350px;
@@ -64,7 +66,25 @@
             border: none;
             cursor: pointer;
             background: url('../../../assets/images/sygnomics.jpg') no-repeat;
-            background-size: contain;
+            background-size: cover;
+            background-position: center;
+        }
+        &--chatApp {
+          height: 350px;
+          width: 350px;
+          border: none;
+          cursor: pointer;
+          background: url('../../../assets/images/chatApp.jpg') no-repeat;
+          background-size: cover;
+        }
+        &--weatherApp {
+          height: 350px;
+          width: 350px;
+          border: none;
+          cursor: pointer;
+          background: url('../../../assets/images/weatherApp.jpg') no-repeat;
+          background-size: cover;
+          background-position: center;
         }
         &--targetSumGame {
             height: 350px;
@@ -73,6 +93,7 @@
             cursor: pointer;
             background: url('../../../assets/images/targetSumGame.jpg') no-repeat;
             background-size: contain;
+            background-position: center;
         }
         &--bakesaleApp {
             height: 350px;
@@ -81,6 +102,7 @@
             cursor: pointer;
             background: url('../../../assets/images/bakeSale.jpg') no-repeat;
             background-size: contain;
+            background-position: center;
         }
     }
 
@@ -118,7 +140,15 @@
             }
             &--meetTheTeam {
                 height: 270px;
-                width: 270px;;  
+                width: 270px;
+            }
+            &--chatApp {
+              height: 270px;
+              width: 270px;
+            }
+            &--weatherApp {
+              height: 270px;
+              width: 270px;
             }
             &--personalWebsite {
                 height: 270px;

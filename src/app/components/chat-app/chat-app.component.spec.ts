@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AndIOopComponent } from './andioop.component';
+import { ChatAppComponent } from './chat-app.component';
 
-describe('AndioopComponent', () => {
-  let component: AndIOopComponent;
-  let fixture: ComponentFixture<AndIOopComponent>;
+describe('ChatAppComponent', () => {
+  let component: ChatAppComponent;
+  let fixture: ComponentFixture<ChatAppComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AndIOopComponent ]
+      declarations: [ ChatAppComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AndIOopComponent);
+    fixture = TestBed.createComponent(ChatAppComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
