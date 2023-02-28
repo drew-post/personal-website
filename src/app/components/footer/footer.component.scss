@@ -1,5 +1,5 @@
 :host .footer {
-    padding: 30px 0 30px 40px;
+    padding: 100px 0 30px 40px;
 
     &__text {
         font-family: 'Poppins', sans-serif;
@@ -26,13 +26,17 @@
             height: 50px;
             width: 50px;
             border: none;
-            background: url('../../../assets/images/github.svg') no-repeat;  
+            background: url('../../../assets/images/github.svg') no-repeat;
         }
         &--linkedin {
             height: 50px;
             width: 50px;
             border: none;
-            background: url('../../../assets/images/linkedin.svg') no-repeat;  
+            background: url('../../../assets/images/linkedin.svg') no-repeat;
         }
+    }
+
+    @media screen and (max-width: 768px) {
+      padding-top: 45px;
     }
 }
