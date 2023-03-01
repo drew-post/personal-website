@@ -1,5 +1,5 @@
 :host .footer {
-    padding: 75px 0 30px 40px;
+  padding: 225px 0 30px 40px;
 
     &__text {
         font-family: 'Poppins', sans-serif;
@@ -37,6 +37,6 @@
     }
 
     @media screen and (max-width: 1200px) {
-      padding-top: 45px;
+      padding-top: 150px;
     }
 }

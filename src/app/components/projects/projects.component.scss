@@ -42,7 +42,13 @@
             background: url('../../../assets/images/andIOopInfo.jpg') no-repeat;
             background-size: cover;
             background-position: center;
+            transition: opacity ease 200ms;
         }
+
+        &--andioop:hover {
+          opacity: 0.8;
+        }
+
         &--meetTheTeam {
             height: 350px;
             width: 350px;
@@ -51,7 +57,13 @@
             background: url('../../../assets/images/meetTheTeamHomepage.jpg') no-repeat;
             background-size: cover;
             background-position: center;
+            transition: opacity ease 200ms;
         }
+
+        &--meetTheTeam:hover {
+          opacity: 0.7;
+        }
+
         &--personalWebsite {
             height: 350px;
             width: 350px;
@@ -59,7 +71,13 @@
             cursor: pointer;
             background: url('../../../assets/images/personalWebsite.jpg') no-repeat;
             background-size: cover;
+            transition: opacity ease 200ms;
         }
+
+        &--personalWebsite:hover {
+          opacity: 0.7;
+        }
+
         &--sygnomics {
             height: 350px;
             width: 350px;
@@ -68,7 +86,13 @@
             background: url('../../../assets/images/sygnomics.jpg') no-repeat;
             background-size: cover;
             background-position: center;
+            transition: opacity ease 200ms;
         }
+
+        &--sygnomics:hover {
+          opacity: 0.7;
+        }
+
         &--chatApp {
           height: 350px;
           width: 350px;
@@ -76,7 +100,13 @@
           cursor: pointer;
           background: url('../../../assets/images/chatApp.jpg') no-repeat;
           background-size: cover;
+          transition: opacity ease 200ms;
         }
+
+        &--chatApp:hover {
+          opacity: 0.7;
+        }
+
         &--weatherApp {
           height: 350px;
           width: 350px;
@@ -85,7 +115,13 @@
           background: url('../../../assets/images/weatherApp.jpg') no-repeat;
           background-size: cover;
           background-position: center;
+          transition: opacity ease 200ms;
         }
+
+        &--weatherApp:hover {
+          opacity: 0.7;
+        }
+
         &--targetSumGame {
             height: 350px;
             width: 350px;
@@ -94,7 +130,13 @@
             background: url('../../../assets/images/targetSumGame.jpg') no-repeat;
             background-size: contain;
             background-position: center;
+            transition: opacity ease 200ms;
         }
+
+        &--targetSumGame:hover {
+          opacity: 0.7;
+        }
+
         &--bakesaleApp {
             height: 350px;
             width: 350px;
@@ -103,6 +145,11 @@
             background: url('../../../assets/images/bakeSale.jpg') no-repeat;
             background-size: contain;
             background-position: center;
+            transition: opacity ease 200ms;
+        }
+
+        &--bakeSaleApp:hover {
+          opacity: 0.7;
         }
     }
 

@@ -48,7 +48,35 @@
         }
     }
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1200px) {
+      &__background {
+        padding: 30px 20px 30px 10px;
+      }
+
+      &__nav {
+          &--title {
+              padding-right: 30px;
+              font-size: 28px;
+              font-style: italic;
+          }
+
+          &--title:hover {
+              font-size: 30px;
+          }
+
+          &--link {
+              padding-right: 20px;
+              font-size: 24px;
+              font-style: italic;
+          }
+
+          &--link:hover {
+              font-size: 26px;
+          }
+      }
+    }
+
+    @media screen and (max-width: 769px) {
         &__background {
             padding: 30px 20px 30px 10px;
         }
