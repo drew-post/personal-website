@@ -46,6 +46,9 @@
         font-weight: 800;
         font-style: italic;
         padding-right: 10px;
+        text-decoration: underline dotted;
+        text-decoration-color: var(--sage-green);
+        text-decoration-thickness: 6px;
     }
 
     &__bio-tagline-second {
@@ -54,6 +57,9 @@
         font-size: 30px;
         font-weight: 700;
         font-style: italic;
+        text-decoration: underline;
+        text-decoration-color: var(--gray-blue);
+        text-decoration-thickness: 6px;
     }
 
     &__bio-text {
@@ -65,6 +71,30 @@
         font-size: 18px;
         font-weight: 600;
         font-style: italic;
+
+        &--wavy {
+          text-decoration: underline wavy;
+          text-decoration-color: var(--light-red);
+          text-decoration-thickness: 2px;
+        }
+
+        &--underline {
+          text-decoration: underline;
+          text-decoration-color: var(--gray-blue);
+          text-decoration-thickness: 3px;
+        }
+
+        &--dot {
+          text-decoration: underline dotted;
+          text-decoration-color: var(--sage-green);
+          text-decoration-thickness: 3px;
+        }
+
+        &--dash {
+          text-decoration: underline dashed;
+          text-decoration-color: var(--beige);
+          text-decoration-thickness: 3px;
+        }
     }
 
     &__link {

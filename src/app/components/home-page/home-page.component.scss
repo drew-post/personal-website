@@ -32,7 +32,7 @@
         width: 150px;
         height: 150px;
         margin-right: 10px;
-        transition: transform .2s;
+        transition: ease-in-out .2s;
     }
 
     &__picture:hover {
@@ -61,12 +61,18 @@
         font-size: 50px;
         padding-bottom: 10px;
         padding-right: 13px;
+        text-decoration: underline dotted;
+        text-decoration-color: var(--sage-green);
+        text-decoration-thickness: 8px;
     }
 
     &__title {
         font-style: italic;
         font-size: 50px;
         padding-bottom: 10px;
+        text-decoration: underline;
+        text-decoration-color: var(--gray-blue);
+        text-decoration-thickness: 8px;
     }
 
     &__sub-title-container {
@@ -82,7 +88,8 @@
         font-size: 35px;
         font-weight: 600;
         padding-bottom: 50px;
-        padding-right: 12px
+        padding-right: 12px;
+
     }
 
     &__sub-title {
@@ -91,6 +98,9 @@
         font-weight: 600;
         font-style: italic;
         padding-bottom: 50px;
+        text-decoration: underline wavy;
+        text-decoration-color: var(--light-red);
+        text-decoration-thickness: 4px;
     }
 
     &__route-container {

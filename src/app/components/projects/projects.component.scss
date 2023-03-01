@@ -1,5 +1,5 @@
 :host .projects {
-    padding: 30px 0 30px 40px;
+    padding: 30px 40px 30px 40px;
 
     a:link {
         text-decoration: none;
@@ -26,13 +26,35 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        padding-left: 10%;
+        padding-left: 8%;
     }
 
     &__link-container {
         padding-right: 10%;
         align-items: center;
     }
+
+    &__card-container {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      opacity: 1;
+      border-radius: 5%;
+      overflow: hidden;
+      background-color: var(--card-color);
+      margin-bottom: 25px;
+      transition: all .3s ease-in-out;
+    }
+
+    &__card-container:hover {
+      transform: scale(1.1);
+    }
+
+    &__tag-container {
+      display: flex;
+      flex-direction: row;
+    }
+
     &__link {
         &--andioop {
             height: 350px;
@@ -42,7 +64,7 @@
             background: url('../../../assets/images/andIOopInfo.jpg') no-repeat;
             background-size: cover;
             background-position: center;
-            transition: opacity ease 200ms;
+            border-radius: 5%;
         }
 
         &--andioop:hover {
@@ -57,7 +79,7 @@
             background: url('../../../assets/images/meetTheTeamHomepage.jpg') no-repeat;
             background-size: cover;
             background-position: center;
-            transition: opacity ease 200ms;
+            border-radius: 5%;
         }
 
         &--meetTheTeam:hover {
@@ -71,7 +93,7 @@
             cursor: pointer;
             background: url('../../../assets/images/personalWebsite.jpg') no-repeat;
             background-size: cover;
-            transition: opacity ease 200ms;
+            border-radius: 5%;
         }
 
         &--personalWebsite:hover {
@@ -86,7 +108,7 @@
             background: url('../../../assets/images/sygnomics.jpg') no-repeat;
             background-size: cover;
             background-position: center;
-            transition: opacity ease 200ms;
+            border-radius: 5%;
         }
 
         &--sygnomics:hover {
@@ -100,7 +122,7 @@
           cursor: pointer;
           background: url('../../../assets/images/chatApp.jpg') no-repeat;
           background-size: cover;
-          transition: opacity ease 200ms;
+          border-radius: 5%;
         }
 
         &--chatApp:hover {
@@ -115,7 +137,7 @@
           background: url('../../../assets/images/weatherApp.jpg') no-repeat;
           background-size: cover;
           background-position: center;
-          transition: opacity ease 200ms;
+          border-radius: 5%;
         }
 
         &--weatherApp:hover {
@@ -130,7 +152,7 @@
             background: url('../../../assets/images/targetSumGame.jpg') no-repeat;
             background-size: contain;
             background-position: center;
-            transition: opacity ease 200ms;
+            border-radius: 5%;
         }
 
         &--targetSumGame:hover {
@@ -145,20 +167,25 @@
             background: url('../../../assets/images/bakeSale.jpg') no-repeat;
             background-size: contain;
             background-position: center;
-            transition: opacity ease 200ms;
+            border-radius: 5%;
         }
 
         &--bakeSaleApp:hover {
-          opacity: 0.7;
+          opacity: 0.6;
         }
     }
 
+    &__info {
+      padding-top: 10px;
+    }
+
     &__title-text {
-        padding: 15px 0 50px 0;
+        padding: 15px 0 15px 0;
         font-family: 'Poppins', sans-serif;
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 500;
         font-style: italic;
+        margin-left: 5px;
     }
 
     &__title-text:hover {
@@ -168,16 +195,17 @@
 
 
     @media screen and (max-width: 768px) {
-        padding: 30px 0 30px 32px;
+        padding: 30px 32px 30px 32px;
 
         &__container {
             flex-direction: column;
             justify-content: center;
-            align-items: flex-start;
+            align-items: center;
+            padding-left: 0;
         }
 
         &__link-container {
-            padding-left: 7%;
+            padding: 0;
         }
 
         &__link {
