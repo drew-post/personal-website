@@ -23,11 +23,17 @@
         font-weight: 600;
         font-style: italic;
         padding-right: 9px;
+        text-decoration: underline dotted;
+        text-decoration-color: var(--sage-green);
+        text-decoration-thickness: 4px;
     }
 
     &__title-second {
         font-weight: 600;
         font-style: italic;
+        text-decoration: underline;
+        text-decoration-color: var(--green);
+        text-decoration-thickness: 4px;
     }
 
     &__tech-stack-container {

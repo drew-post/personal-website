@@ -22,6 +22,9 @@
         font-style: italic;
         padding-bottom: 20px;
         padding-right: 8px;
+        text-decoration: underline;
+        text-decoration-color: var(--red);
+        text-decoration-thickness: 4px;
     }
 
     &__title-second {
@@ -30,6 +33,9 @@
         font-style: italic;
         font-size: 26px;
         padding-bottom: 20px;
+        text-decoration: underline dotted;
+        text-decoration-color: var(--light-red);
+        text-decoration-thickness: 4px;
     }
 
     &__tech-stack-container {
