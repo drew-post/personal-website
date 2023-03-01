@@ -110,33 +110,39 @@
     }
 
     &__about-route {
+        color: black;
         font-style: italic;
         font-size: 27px;
         font-weight: 500;
         padding-bottom: 20px;
         text-decoration: none;
-        color:black;
     }
 
     &__about-route:hover {
         font-family: 'Lora', sans-serif;
         font-size: 30px;
         font-weight: 600;
+        text-decoration: underline dashed;
+        text-decoration-color: var(--beige);
+        text-decoration-thickness: 4px;
     }
 
     &__work-route {
+      color: black;
         font-style: italic;
         font-size: 27px;
         font-weight: 500;
         padding-bottom: 20px;
         text-decoration: none;
-        color: black;
     }
 
     &__work-route:hover {
         font-family: 'Lora', sans-serif;
         font-size: 30px;
         font-weight: 600;
+        text-decoration: underline dashed;
+        text-decoration-color: var(--green);
+        text-decoration-thickness: 4px;
     }
 
     @media screen and (max-width: 1634px) {
