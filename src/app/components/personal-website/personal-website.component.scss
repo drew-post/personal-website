@@ -60,8 +60,8 @@
     }
 
     &__image {
-        width: 650px;
-        height: 373px;
+        width: 550px;
+        height: 273px;
         position: relative;
         padding: 0;
         border: 2px solid var(--light-red);
@@ -75,7 +75,7 @@
         padding-top: 5px;
     }
 
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
         padding: 10px 40px 30px 40px;
         flex-direction: column;
 
@@ -102,8 +102,16 @@
         }
 
         &__image {
-            width: 325px;
-            height: 175px;
+            width: 450px;
+            height: 275px;
+            align-self: center;
         }
+    }
+
+    @media screen and (max-width: 500px) {
+      &__image {
+        width: 350px;
+        height: 175px;
+      }
     }
 }
