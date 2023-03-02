@@ -253,10 +253,12 @@
 
       &__title-first-word {
           font-size: 36px;
+          text-decoration-thickness: 5px;
       }
 
       &__title {
           font-size: 36px;
+          text-decoration-thickness: 5px;
       }
 
       &__sub-title-first {
@@ -267,6 +269,7 @@
       &__sub-title {
           font-size: 24px;
           padding-bottom: 50px;
+          text-decoration-thickness: 3px;
       }
 
       &__about-route {
@@ -275,6 +278,7 @@
 
       &__about-route:hover {
           font-size: 22px;
+          text-decoration-thickness: 3px;
       }
 
       &__work-route {
@@ -284,6 +288,7 @@
 
       &__work-route:hover {
           font-size: 22px;
+          text-decoration-thickness: 3px;
       }
   }
 }
