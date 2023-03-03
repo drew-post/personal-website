@@ -100,39 +100,9 @@
             padding: 0;
         }
 
-        &__link {
-            &--andioop {
-                height: 270px;
-                width: 270px;
-            }
-            &--meetTheTeam {
-                height: 270px;
-                width: 270px;
-            }
-            &--chatApp {
-              height: 270px;
-              width: 270px;
-            }
-            &--weatherApp {
-              height: 270px;
-              width: 270px;
-            }
-            &--personalWebsite {
-                height: 270px;
-                width: 270px;
-            }
-            &--sygnomics {
-                height: 270px;
-                width: 270px;
-            }
-            &--targetSumGame {
-                height: 270px;
-                width: 270px;
-            }
-            &--bakesaleApp {
-                height: 270px;
-                width: 270px;
-            }
+        &__image {
+          height: 270px;
+          width: 270px;
         }
     }
 }
