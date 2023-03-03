@@ -13,49 +13,49 @@ export class ProjectsComponent implements OnInit {
       title: "Sygnomics Internship Project",
       route: "sygnomics",
       tags: ["React", "Typescript", "Node.js"],
-      imagePath: "sygnomics"
+      imagePath: "sygnomics.jpg"
     },
     {
       title: "My Personal Website",
       route: "personalwebsite",
       tags: ["Angular", "Typescript", "Github Pages"],
-      imagePath: "personalWebsite"
+      imagePath: "personalWebsite.jpg"
     },
     {
       title: "andioop Discord Bot",
       route: "andioop",
       tags: ["Javascript", "Discord.js", "Node.js"],
-      imagePath: "andioop"
+      imagePath: "andIOopInfo.jpg"
     },
     {
       title: "Meet the Team Project",
       route: "meettheteam",
       tags: ["Angular", "Typescript"],
-      imagePath: "meetTheTeam"
+      imagePath: "meetTheTeamHomepage.jpg"
     },
     {
       title: "Chat App",
       route: "chatapp",
       tags: ["Angular", "Typescript", "Node.js"],
-      imagePath: "chatApp"
+      imagePath: "chatApp.jpg"
     },
     {
       title: "Weather App",
       route: "weatherapp",
       tags: ["Angular", "Typescript"],
-      imagePath: "weatherApp"
+      imagePath: "weatherApp.jpg"
     },
     {
       title: "Target Sum Mobile Game",
       route: "targetsumgame",
       tags: ["React Native"],
-      imagePath: "targetSumGame"
+      imagePath: "targetSumGame.jpg"
     },
     {
       title: "Bakesale For Good App",
       route: "bakesaleapp",
       tags: ["React Native"],
-      imagePath: "bakesaleApp"
+      imagePath: "bakesale.jpg"
     }
   ]
 

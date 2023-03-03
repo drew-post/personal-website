@@ -3,7 +3,7 @@
         <div class="projects__link-container" *ngFor="let projectItem of projectItems">
           <div class="projects__card-container">
               <a routerLink="{{ projectItem.route }}" routerLinkActive="active">
-                <button class="projects__link--{{ projectItem.imagePath }}" title="{{ projectItem.title }}"></button>
+                <img class="projects__image" src="assets/images/{{ projectItem.imagePath }}" title="{{ projectItem.title }}"/>
                 <div class="projects__info">
                   <div class="projects__tag-container">
                     <pw-project-label
