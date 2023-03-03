@@ -1,5 +1,5 @@
 :host .about {
-    padding: 30px 60px 30px 40px;
+    padding: 30px 60px 0 40px;
 
     &__container {
         display: flex;
@@ -13,7 +13,6 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding-bottom: 5%;
     }
 
     &__image-container {
@@ -24,7 +23,8 @@
 
     &__drew-image {
         position: relative;
-        border-radius: 100%;
+        border-radius: 50%;
+        border: 2px solid var(--green);
     }
 
     &__bio-section {
