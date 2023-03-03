@@ -55,7 +55,7 @@ export class ProjectsComponent implements OnInit {
       title: "Bakesale For Good App",
       route: "bakesaleapp",
       tags: ["React Native"],
-      imagePath: "bakesale.jpg"
+      imagePath: "bakeSale.jpg"
     }
   ]
 

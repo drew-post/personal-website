@@ -29,12 +29,12 @@
         padding-left: 8%;
     }
 
-    &__link-container {
+    &__card-container {
         padding-right: 10%;
         align-items: center;
     }
 
-    &__card-container {
+    &__card {
       padding: 15px;
       display: flex;
       flex-direction: column;
@@ -46,13 +46,8 @@
       transition: all .3s ease-in-out;
     }
 
-    &__card-container:hover {
+    &__card:hover {
       transform: scale(1.1);
-    }
-
-    &__tag-container {
-      display: flex;
-      flex-direction: row;
     }
 
     &__image:hover {
