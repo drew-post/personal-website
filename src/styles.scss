@@ -26,3 +26,6 @@ html, body, h1, h2, p, div, button {
     --light-blue: #487EB5;
     --brown: #9B7B63;
 }
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";

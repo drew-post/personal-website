@@ -11,12 +11,11 @@ export class AndIOopComponent implements OnInit {
     title: 'andIOop Discord Bot',
     techDescription: ['Discord.js', 'Javascript', 'Node.js'],
     imageArray: [
-      { src: 'assets/images/andIOopInfo.jpg' },
-      { src: 'assets/images/andIOopHelp.jpg' },
-      { src: 'assets/images/andIOopAvatar.gif' },
-      { src: 'assets/images/andIOopCatFact.gif' },
-      { src: 'assets/images/andIOopRandomDog.gif' },
-      { src: 'assets/images/andIOopVine.gif' },
+      'assets/images/andIOopInfo.jpg',
+      'assets/images/andIOopHelp.jpg','assets/images/andIOopAvatar.gif',
+      'assets/images/andIOopCatFact.gif',
+      'assets/images/andIOopRandomDog.gif',
+      'assets/images/andIOopVine.gif'
     ],
   };
 

@@ -16,24 +16,18 @@
         align-self: center;
     }
 
-    &__sygnomics-image {
-        width: 350px;
-        height: 373px;
-        position: relative;
-        padding: 0;
-        border: 2px solid var(--light-blue);
-    }
-
     &__source {
-        font-size: 12px;
-        font-weight: 400;
-        font-style: italic;
+      font-size: 12px;
+      font-weight: 500;
+      font-style: italic;
+      padding-top: 5px;
     }
 
     &__source-link {
-        font-size: 12px;
-        font-weight: 400;
-        font-style: italic;
+      font-size: 12px;
+      font-weight: 500;
+      font-style: italic;
+      padding-top: 5px;
     }
 
     &__source-link:hover {

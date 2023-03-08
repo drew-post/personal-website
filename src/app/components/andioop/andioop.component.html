@@ -14,12 +14,21 @@
         </div>
         <div class="and-i-oop__desc-container">
             <p class="and-i-oop__description">
+              I started this Discord bot in 2019 to generate fun content in Discord servers I was in with my friends. The bot utilizes Discord,js, Javascript, Node.js to respond to corresponding commands following the astrick character, call APIs to generate content that is then formatted and sent back to the user, and send randomized links and images that are stored in the repo. <br><br>
+              Some examples of the bot's commands include: sending an enlarged JPG of a user's avatar, generating a random dog or cat fact, generating a random joke, sending a link to an old vine, querying and sending back lyrics to requested songs, sending a random cowboy or clown picture, and sending my local time zone's time at the time requested. Some of these commands can be seen in the images provided.
+              <br><br>
+              Improvements I'd like to make to this project are to potentially invest in hosting the bot on a server, continue to build out new commands as well as expand upon existing commands to further optimize performance.
             </p>
         </div>
     </div>
     <div class="and-i-oop__picture-container">
-    </div>
-    <div class="and-i-oop__coming-soon">
-      <pw-coming-soon></pw-coming-soon>
+      <figure>
+        <carousel [noPause]="false" [isAnimated]="true">
+          <slide *ngFor="let imagePath of projectDetails.imageArray">
+            <img src="{{imagePath}}" alt="Information about the bot and example commands" style="display: flex; max-width: 800px; border: 2px solid var(--sage-green);">
+          </slide>
+        </carousel>
+        <figcaption class="and-i-oop__source">Information about the bot and example commands</figcaption>
+      </figure>
     </div>
 </div>

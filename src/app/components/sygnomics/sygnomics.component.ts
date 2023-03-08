@@ -11,7 +11,8 @@ export class SygnomicsComponent implements OnInit {
   projectDetails: ProjectDetailsItem = {
     title: "Slalom Build: Sygnomics Internship Project",
     techDescription: ['React', 'Node.js', 'TypeScript', 'Amazon DynamoDB', 'Amazon Simple Storage Service (Amazon S3)', 'AWS Lambda', 'Amazon CloudFront', 'Amazon Cognito'],
-    link: "https://www.slalombuild.com/our-work/sygnomics"
+    link: "https://www.slalombuild.com/our-work/sygnomics",
+    imageArray: [ 'assets/images/sygnomics.jpg']
   }
 
   constructor() { }

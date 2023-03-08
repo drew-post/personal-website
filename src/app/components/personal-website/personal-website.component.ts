@@ -11,6 +11,7 @@ export class PersonalWebsiteComponent implements OnInit {
   projectDetails: ProjectDetailsItem = {
     title: "My Personal Website",
     techDescription: ['Angular', 'Typescript', 'Github Pages'],
+    imageArray: [ 'assets/images/personalWebsiteTour.gif' ]
   }
 
   constructor() { }

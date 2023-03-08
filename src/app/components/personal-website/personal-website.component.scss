@@ -18,6 +18,7 @@
     }
 
     &__title-first {
+        font-size: 26px;
         font-weight: 600;
         font-style: italic;
         padding-bottom: 20px;
@@ -59,15 +60,7 @@
         align-self: center;
     }
 
-    &__image {
-        width: 550px;
-        position: relative;
-        padding: 0;
-        border: 2px solid var(--light-red);
-    }
-
     &__source {
-        font-family: 'Poppins', sans-serif;
         font-size: 12px;
         font-weight: 500;
         font-style: italic;

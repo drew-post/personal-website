@@ -26,7 +26,11 @@
     </div>
     <div class="sygnomics__picture-container">
       <figure>
-        <img class="sygnomics__sygnomics-image" src="assets/images/sygnomics.jpg"/>
+        <carousel [noPause]="false">
+          <slide *ngFor="let imagePath of projectDetails.imageArray">
+            <img src="{{imagePath}}" alt="Photo of Sygnomics app on a tablet" style="display: flex; max-width: 800px; border: 2px solid var(--light-blue);">
+          </slide>
+        </carousel>
         <figcaption class="sygnomics__source">Image by Slalom Build via <a class="sygnomics__source-link" href={{projectDetails.link}} target="_blank">website</a>.</figcaption>
       </figure>
     </div>
