@@ -58,6 +58,7 @@
     &__title-first-word {
         font-family: 'Lora', sans-serif;
         font-style: italic;
+        font-weight: 600;
         font-size: 50px;
         padding-bottom: 10px;
         padding-right: 13px;
@@ -69,6 +70,7 @@
     &__title {
         font-style: italic;
         font-size: 50px;
+        font-weight: 600;
         padding-bottom: 10px;
         text-decoration: underline;
         text-decoration-color: var(--gray-blue);
