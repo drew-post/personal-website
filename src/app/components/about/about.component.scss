@@ -20,6 +20,7 @@
   }
 
   &__drew-image {
+    width: 225px;
     position: relative;
     border-radius: 50%;
     border: 2px solid var(--green);
@@ -146,11 +147,6 @@
       padding: 25px 0 0 0;
       align-content: center;
       margin: 0px;
-    }
-
-    &__image-container {
-      width: 150px;
-      height: 150px;
     }
 
     &__drew-image {
