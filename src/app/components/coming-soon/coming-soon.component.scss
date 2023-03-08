@@ -1,26 +1,26 @@
 :host .coming-soon {
+  &__container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+  }
+
+  &__titleText {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 1024px) {
     &__container {
-        display: flex;
-        justify-content: center;
-        padding: 100px;
+      padding: 50px;
     }
 
     &__titleText {
-        font-family: 'Poppins', sans-serif;
-        font-style: italic;
-        font-size: 50px;
-        font-weight: 700;
-        text-align: center;
+      font-size: 32px;
+      font-weight: 700;
     }
-
-    @media screen and (max-width: 1024px) {
-      &__container {
-        padding: 50px;
-      }
-
-      &__titleText {
-          font-size: 32px;
-          font-weight: 700;
-      }
-    }
+  }
 }
