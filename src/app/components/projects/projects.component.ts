@@ -42,7 +42,7 @@ export class ProjectsComponent implements OnInit {
     {
       title: "Weather App",
       route: "weatherapp",
-      tags: ["Angular", "Typescript"],
+      tags: ["Angular", "Angular Material", "Typescript"],
       imagePath: "weatherApp.jpg"
     },
     {

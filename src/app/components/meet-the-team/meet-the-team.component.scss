@@ -1,3 +1,123 @@
 :host .meet-the-team {
-    padding: 30px 40px 30px 40px;
+  padding: 30px 0 30px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  &__text-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0 10px 10px 10px;
+  }
+
+  &__title-container {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      padding-bottom: 20px;
+  }
+
+  &__title-second {
+      font-family: 'Lora', serif;
+      font-weight: 600;
+      font-size: 26px;
+      font-style: italic;
+      text-decoration: underline dotted;
+      text-decoration-color: var(--brown);
+      text-decoration-thickness: 4px;
+  }
+
+  &__title-first {
+      font-weight: 600;
+      font-size: 26px;
+      font-style: italic;
+      text-decoration: underline;
+      text-decoration-color: var(--beige);
+      text-decoration-thickness: 4px;
+      padding-right: 9px;
+  }
+
+  &__find-out-more-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 17px;
+    font-weight: 400;
 }
+
+  &__find-out-more-link {
+    color: var(--brown);
+    text-decoration: underline;
+    text-decoration-color: var(--brown);
+    text-decoration-thickness: 3px;
+  }
+
+  &__find-out-more-link:hover {
+      font-family: 'Lora', serif;
+      font-style: italic;
+      font-size: 17px;
+      text-decoration: underline dotted;
+  }
+
+  &__tech-stack-container {
+      padding-bottom: 35px;
+  }
+
+  &__desc-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-bottom: 15px;
+  }
+
+  &__description {
+      align-self: center;
+      font-weight: 400;
+  }
+
+  &__picture-container {
+      padding: 0 50px 25px 50px;
+      align-self: center;
+      padding-top: 25px;
+  }
+
+  &__source {
+      font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      font-style: italic;
+      padding-top: 5px;
+  }
+
+  @media screen and (max-width: 1100px) {
+      padding: 10px 40px 30px 40px;
+      flex-direction: column;
+
+      &__title-first {
+          font-size: 22px;
+          padding-right: 7px;
+      }
+
+      &__title-second {
+          font-size: 22px;
+      }
+
+      &__desc-container {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+
+      &__description {
+        font-size: 16px;
+      }
+
+      &__picture-container{
+          padding-top: 25px;
+          padding-left: 16%;
+          max-width: 135%;
+      }
+  }
+}
+

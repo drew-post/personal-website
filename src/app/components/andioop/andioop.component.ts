@@ -17,6 +17,7 @@ export class AndIOopComponent implements OnInit {
       'assets/images/andIOopRandomDog.gif',
       'assets/images/andIOopVine.gif'
     ],
+    link: 'https://github.com/drew-post/andioop'
   };
 
   constructor() {}
