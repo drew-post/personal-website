@@ -1,156 +1,156 @@
 :host .sygnomics {
-    padding: 30px 30px 30px 55px;
+  padding: 30px 30px 30px 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  &__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 10px 10px 10px;
+  }
+
+  &__picture-container {
+    padding: 0 50px 25px 50px;
+    align-self: center;
+  }
+
+  &__source {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 5px;
+  }
+
+  &__source-link {
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+    padding-top: 5px;
+  }
+
+  &__source-link:hover {
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  &__title-container {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 5px;
+  }
+
+  &__title-first {
+    font-size: 30px;
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-style: italic;
+    padding-right: 10px;
+    text-decoration: underline dotted;
+    text-decoration-color: var(--gray-blue);
+    text-decoration-thickness: 4px;
+  }
+
+  &__title-second {
+    font-size: 28px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: var(--light-blue);
+    text-decoration-thickness: 4px;
+  }
+
+  &__find-out-more-container {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    padding-bottom: 17px;
+    font-weight: 400;
+  }
 
-    &__text-container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 0 10px 10px 10px;
-    }
+  &__find-out-more-link {
+    color: var(--light-blue);
+    text-decoration: underline;
+    text-decoration-color: var(--light-blue);
+    text-decoration-thickness: 3px;
+  }
 
-    &__picture-container {
-        padding: 0 50px 25px 50px;
-        align-self: center;
-    }
+  &__find-out-more-link:hover {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 17px;
+    text-decoration: underline dotted;
+  }
 
-    &__source {
-      font-size: 12px;
-      font-weight: 500;
-      font-style: italic;
-      padding-top: 5px;
-    }
+  &__tech-stack-container {
+    padding-bottom: 35px;
+  }
 
-    &__source-link {
-      font-size: 12px;
-      font-weight: 500;
-      font-style: italic;
-      padding-top: 5px;
-    }
+  &__desc-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 15px;
+  }
 
-    &__source-link:hover {
-        font-family: 'Lora', serif;
-        font-size: 14px;
-        font-style: italic;
-    }
+  &__description {
+    align-content: center;
+    font-weight: 400;
+  }
+
+  @media screen and (max-width: 1200px) {
+    padding: 20px 40px 30px 40px;
+    flex-direction: column;
 
     &__title-container {
-        display: inline-flex;
-        flex-direction: row;
-        align-items: baseline;
-        padding-bottom: 5px;
+      padding-bottom: 10px;
     }
 
     &__title-first {
-        font-family: 'Lora', serif;
-        font-size: 26px;
-        font-weight: 600;
-        font-style: italic;
-        padding-right: 10px;
-        text-decoration: underline dotted;
-        text-decoration-color: var(--green);
-        text-decoration-thickness: 4px;
+      font-size: 22px;
+      padding-right: 7px;
     }
 
     &__title-second {
-        font-size: 26px;
-        font-weight: 600;
-        font-style: italic;
-        text-decoration: underline;
-        text-decoration-color: var(--light-blue);
-        text-decoration-thickness: 4px;
-    }
-
-    &__find-out-more-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding-bottom: 17px;
-        font-weight: 400;
-    }
-
-    &__find-out-more-link {
-      color: var(--light-blue);
-      text-decoration: underline;
-      text-decoration-color: var(--light-blue);
-      text-decoration-thickness: 3px;
-    }
-
-    &__find-out-more-link:hover {
-        font-family: 'Lora', serif;
-        font-style: italic;
-        font-size: 17px;
-        text-decoration: underline dotted;
-    }
-
-    &__tech-stack-container {
-        padding-bottom: 35px;
+      font-size: 22px;
     }
 
     &__desc-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding-bottom: 15px;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-bottom: 5%;
     }
 
     &__description {
-        align-content: center;
-        font-weight: 400;
+      font-size: 16px;
     }
 
-    @media screen and (max-width: 1200px) {
-        padding: 20px 40px 30px 40px;
-        flex-direction: column;
-
-        &__title-container {
-            padding-bottom: 10px;
-        }
-
-        &__title-first {
-            font-size: 22px;
-            padding-right: 7px;
-        }
-
-        &__title-second {
-            font-size: 22px;
-        }
-
-        &__desc-container {
-            flex-direction: column;
-            align-items: flex-start;
-            padding-bottom: 5%;
-        }
-
-        &__description {
-          font-size: 16px;
-        }
-
-        &__find-out-more-container {
-          font-size: 16px;
-        }
-
-        &__second-title {
-            padding: 0;
-            margin: 10px 0 5px 0;
-        }
-
-        &__sygnomics-image {
-            width: 275px;
-            height: 300px;
-        }
+    &__find-out-more-container {
+      font-size: 16px;
     }
 
-   @media screen and (max-width: 582px) {
-      &__title-container {
-        flex-direction: column;
-        align-self: center;
-      }
-
-      &__title-first {
-        align-self: center;
-      }
+    &__second-title {
+      padding: 0;
+      margin: 10px 0 5px 0;
     }
+
+    &__sygnomics-image {
+      width: 275px;
+      height: 300px;
+    }
+  }
+
+  @media screen and (max-width: 582px) {
+    &__title-container {
+      flex-direction: column;
+      align-self: center;
+    }
+
+    &__title-first {
+      align-self: center;
+    }
+  }
 }

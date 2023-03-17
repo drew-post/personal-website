@@ -1,42 +1,42 @@
 :host .footer {
   padding: 200px 0 30px 40px;
 
-    &__text {
-        font-family: 'Poppins', sans-serif;
-        font-size: 18px;
-        font-weight: 600;
-        font-style: italic;
-    }
+  &__text {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+  }
 
-    &__container {
-        display: flex;
-        flex-direction: column;
-    }
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    &__container-links {
-        display: flex;
-        flex-direction: row;
-        padding-top: 5px;
-    }
+  &__container-links {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+  }
 
-    &__link {
-        padding-right: 15px;
+  &__link {
+    padding-right: 15px;
 
-        &--github {
-            height: 50px;
-            width: 50px;
-            border: none;
-            background: url('../../../assets/images/github.svg') no-repeat;
-        }
-        &--linkedin {
-            height: 50px;
-            width: 50px;
-            border: none;
-            background: url('../../../assets/images/linkedin.svg') no-repeat;
-        }
+    &--github {
+      height: 50px;
+      width: 50px;
+      border: none;
+      background: url("../../../assets/images/github.svg") no-repeat;
     }
+    &--linkedin {
+      height: 50px;
+      width: 50px;
+      border: none;
+      background: url("../../../assets/images/linkedin.svg") no-repeat;
+    }
+  }
 
-    @media screen and (max-width: 1200px) {
-      padding-top: 100px;
-    }
+  @media screen and (max-width: 1200px) {
+    padding-top: 100px;
+  }
 }

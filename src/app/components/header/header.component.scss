@@ -1,114 +1,114 @@
 :host .header {
-    &__background {
-        overflow: hidden;
-        padding: 30px 20px 30px 20px;
-        text-align: center;
+  &__background {
+    overflow: hidden;
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+  }
+
+  &__container {
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__nav {
+    &--title {
+      color: var(--black);
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+      text-align: center;
+      text-decoration: none;
+      padding-right: 40px;
+      font-size: 30px;
     }
 
-    &__container {
-        padding-left: 20px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+    &--title:hover {
+      font-family: "Lora", sans-serif;
+      font-size: 35px;
+      font-weight: 800;
+      text-decoration: underline;
+      text-decoration-color: var(--red);
+      text-decoration-thickness: 5px;
+    }
+
+    &--link {
+      color: var(--black);
+      text-align: center;
+      text-decoration: none;
+      padding-right: 25px;
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-style: italic;
+      font-weight: 500;
+    }
+
+    &--link:hover {
+      font-family: "Lora", sans-serif;
+      font-size: 28px;
+      font-weight: 600;
+      text-decoration: underline dotted;
+      text-decoration-color: var(--red);
+      text-decoration-thickness: 5px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    &__background {
+      padding: 30px 20px 30px 10px;
     }
 
     &__nav {
-        &--title {
-            color: var(--black);
-            font-family: 'Poppins', sans-serif;
-            font-weight: 700;
-            font-style: italic;
-            text-align: center;
-            text-decoration: none;
-            padding-right: 40px;
-            font-size: 30px;
-        }
-
-        &--title:hover {
-            font-family: 'Lora', sans-serif;
-            font-size: 35px;
-            font-weight: 800;
-            text-decoration: underline;
-            text-decoration-color: var(--red);
-            text-decoration-thickness: 5px;
-        }
-
-        &--link {
-            color: var(--black);
-            text-align: center;
-            text-decoration: none;
-            padding-right: 25px;
-            font-family: 'Poppins', sans-serif;
-            font-size: 24px;
-            font-style: italic;
-            font-weight: 500;
-        }
-
-        &--link:hover {
-            font-family: 'Lora', sans-serif;
-            font-size: 28px;
-            font-weight: 600;
-            text-decoration: underline dotted;
-            text-decoration-color: var(--red);
-            text-decoration-thickness: 5px;
-        }
-    }
-
-    @media screen and (max-width: 1200px) {
-      &__background {
-        padding: 30px 20px 30px 10px;
+      &--title {
+        padding-right: 30px;
+        font-size: 28px;
+        font-style: italic;
       }
 
-      &__nav {
-          &--title {
-              padding-right: 30px;
-              font-size: 28px;
-              font-style: italic;
-          }
+      &--title:hover {
+        font-size: 30px;
+        text-decoration-thickness: 4px;
+      }
 
-          &--title:hover {
-              font-size: 30px;
-              text-decoration-thickness: 4px;
-          }
+      &--link {
+        padding-right: 20px;
+        font-size: 24px;
+        font-style: italic;
+      }
 
-          &--link {
-              padding-right: 20px;
-              font-size: 24px;
-              font-style: italic;
-          }
-
-          &--link:hover {
-              font-size: 26px;
-              text-decoration-thickness: 3px;
-          }
+      &--link:hover {
+        font-size: 26px;
+        text-decoration-thickness: 3px;
       }
     }
+  }
 
-    @media screen and (max-width: 769px) {
-        &__background {
-            padding: 30px 20px 30px 10px;
-        }
-
-        &__nav {
-            &--title {
-                padding-right: 30px;
-                font-size: 24px;
-                font-style: italic;
-            }
-
-            &--title:hover {
-                font-size: 26px;
-            }
-
-            &--link {
-                padding-right: 20px;
-                font-size: 20px;
-                font-style: italic;
-            }
-
-            &--link:hover {
-                font-size: 22px;
-            }
-        }
+  @media screen and (max-width: 769px) {
+    &__background {
+      padding: 30px 20px 30px 10px;
     }
+
+    &__nav {
+      &--title {
+        padding-right: 30px;
+        font-size: 24px;
+        font-style: italic;
+      }
+
+      &--title:hover {
+        font-size: 26px;
+      }
+
+      &--link {
+        padding-right: 20px;
+        font-size: 20px;
+        font-style: italic;
+      }
+
+      &--link:hover {
+        font-size: 22px;
+      }
+    }
+  }
 }

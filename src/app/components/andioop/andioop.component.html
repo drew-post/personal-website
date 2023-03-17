@@ -26,9 +26,9 @@
     </div>
     <div class="and-i-oop__picture-container">
       <figure>
-        <carousel [noPause]="false" [isAnimated]="true">
+        <carousel [noPause]="false" [pauseOnFocus]="true" [isAnimated]="true">
           <slide *ngFor="let imagePath of projectDetails.imageArray">
-            <img src="{{imagePath}}" alt="Information about the bot and example commands" style="display: flex; max-width: 800px; border: 2px solid var(--sage-green);">
+            <img src="{{imagePath}}" alt="Information about the bot and GIFs of example commands" style="display: flex; max-width: 800px; border: 2px solid var(--sage-green);">
           </slide>
         </carousel>
         <figcaption class="and-i-oop__source">Information about the bot and example commands</figcaption>
