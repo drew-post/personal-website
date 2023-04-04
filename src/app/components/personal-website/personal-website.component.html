@@ -1,41 +1,47 @@
 <pw-nav-button-header [previousRoute]="'../sygnomics'" [nextRoute]="'../andioop'"></pw-nav-button-header>
 <div class="personal-website">
-    <div class="personal-website__text-container">
-        <div class="personal-website__title-container">
-            <h2 class="personal-website__title-first">My Personal </h2>
-            <h2 class="personal-website__title-second">Website</h2>
-        </div>
-        <div class="personal-website__find-out-more-container">
-          <p>Find the Github Repository for this project: <a class="personal-website__find-out-more-link" href={{projectDetails.link}} target="_blank">here</a>.</p>
-        </div>
-        <div class="personal-website__tech-stack-container">
-            <pw-project-label
-            [tags]="projectDetails.techDescription"
-            >
-            </pw-project-label>
-        </div>
-        <div class="personal-website__desc-container">
-            <p class="personal-website__description">
-               Welcome to my personal website porfolio! I started this project in 2022 as a way to explore more creative
-               ways to use Angular, HTML, and CSS. I'm using Angular specifically to implement routes and lazy loading, I'm using an Ivy component to implement the image carousels, I'm using
-               Canva for some of the graphics, such as the homepage, and I'm using Github pages to host the website on Github. I've gone through a few iterations in regard to design for the website, ultimately trying to balance a clean and user friendly interface with fun accents, styles, and animations where appropriate. In addition to design, I'm trying to make the website as responsive as possible, so functionality and design remain consistent across all devices. By managing this project, I'm hoping to continue to learn and iterate on coding best practices as well as experiment with design in a contained way.
-               <br><br>
-               Some next steps and improvements I want to make include building out new and existing pages,
-               iterating on website design, further optimizing the way the website handles comoponents/component structure,
-               and continuing to come up with new, creative ideas for content on the website.
-               <br><br>
-               Thank you for visiting!
-            </p>
-        </div>
+  <div class="personal-website__text-container">
+    <div class="personal-website__title-container">
+      <h2 class="personal-website__title-first">My Personal </h2>
+      <h2 class="personal-website__title-second">Website</h2>
     </div>
-    <div class="personal-website__picture-container">
-      <figure>
-        <carousel [noPause]="false">
-          <slide *ngFor="let imagePath of projectDetails.imageArray">
-            <img src="{{imagePath}}" alt="GIF walkthrough of older version of my website" style="display: flex; max-width: 600px; border: 2px solid var(--light-red);">
-          </slide>
-        </carousel>
-        <figcaption class="personal-website__source">Older implementation of the website</figcaption>
-      </figure>
+    <div class="personal-website__find-out-more-container">
+      <p>Find the Github Repository for this project: <a class="personal-website__find-out-more-link"
+          href={{projectDetails.link}} target="_blank">here</a>.</p>
     </div>
+    <div class="personal-website__tech-stack-container">
+      <pw-project-label [tags]="projectDetails.techDescription">
+      </pw-project-label>
+    </div>
+    <div class="personal-website__desc-container">
+      <p class="personal-website__description">
+        Welcome to my personal website portfolio! I started this project in 2022 as a way to explore more creative
+        ways to use Angular, HTML, and CSS. I'm using Angular specifically to implement routes and lazy loading, I'm
+        using SCSS and a sort of BEM naming convention for styling, I'm using an Ivy component to implement the image
+        carousels, I'm using
+        Canva for some of the graphics, such as the homepage, and I'm using Github pages to host the website on Github.
+        I've gone through a few iterations in regard to design for the website, ultimately trying to balance a clean and
+        user friendly interface with fun accents, styles, and animations where appropriate. In addition to design, I'm
+        trying to make the website as responsive as possible, so functionality and design remain consistent across all
+        devices. By managing this project, I'm hoping to continue to learn and iterate on coding best practices as well
+        as experiment with design in a contained way.
+        <br><br>
+        Some next steps and improvements I want to make include building out new and existing pages, improving my SCSS
+        by continuing to condense and clean up code, iterating on website design, further optimizing the way the website handles components/component structure, and continuing to come up with new, creative ideas for content on the website.
+        <br><br>
+        Thank you for visiting!
+      </p>
+    </div>
+  </div>
+  <div class="personal-website__picture-container">
+    <figure>
+      <carousel [noPause]="false">
+        <slide *ngFor="let imagePath of projectDetails.imageArray">
+          <img src="{{imagePath}}" alt="GIF walkthrough of older version of my website"
+            style="display: flex; max-width: 600px; border: 2px solid var(--light-red);">
+        </slide>
+      </carousel>
+      <figcaption class="personal-website__source">Older implementation of the website</figcaption>
+    </figure>
+  </div>
 </div>
