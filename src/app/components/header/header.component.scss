@@ -1,15 +1,14 @@
 :host .header {
-  &__background {
     overflow: hidden;
     padding: 30px 20px 30px 20px;
     text-align: center;
-  }
 
   &__container {
     padding-left: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    list-style-type: none;
   }
 
   &__nav {
