@@ -1,18 +1,14 @@
 <div class="projects">
-    <div class="projects__container">
-        <div class="projects__card-container" *ngFor="let projectItem of projectItems">
-          <a routerLink="{{ projectItem.route }}" routerLinkActive="active">
-              <div class="projects__card">
-                  <img class="projects__image" src="assets/images/{{ projectItem.imagePath }}" title="{{ projectItem.title }}"/>
-                  <div class="projects__info">
-                    <pw-project-label
-                    [tags]="projectItem.tags"
-                    >
-                    </pw-project-label>
-                    <p class="projects__title-text">{{projectItem.title}}</p>
-                  </div>
-              </div>
-            </a>
+  <div class="projects__container">
+    <div class="projects__card-container" *ngFor="let projectItem of projectItems">
+      <button class="projects__card" routerLink="{{ projectItem.route }}" routerLinkActive="active">
+        <img class="projects__image" src="assets/images/{{ projectItem.imagePath }}" title="{{ projectItem.title }}" />
+        <div class="projects__info">
+          <pw-project-label [tags]="projectItem.tags">
+          </pw-project-label>
+          <p class="projects__title-text">{{projectItem.title}}</p>
         </div>
+      </button>
     </div>
+  </div>
 </div>
