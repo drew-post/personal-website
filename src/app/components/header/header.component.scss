@@ -1,7 +1,7 @@
 :host .header {
-    overflow: hidden;
-    padding: 30px 20px 30px 20px;
-    text-align: center;
+  overflow: hidden;
+  padding: 30px 20px 30px 20px;
+  text-align: center;
 
   &__container {
     padding-left: 20px;
@@ -54,9 +54,7 @@
   }
 
   @media screen and (max-width: 1200px) {
-    &__background {
-      padding: 30px 20px 30px 10px;
-    }
+    padding: 30px 20px 30px 10px;
 
     &__nav {
       &--title {
@@ -84,9 +82,7 @@
   }
 
   @media screen and (max-width: 769px) {
-    &__background {
-      padding: 30px 20px 30px 10px;
-    }
+    padding: 30px 20px 30px 10px;
 
     &__nav {
       &--title {
