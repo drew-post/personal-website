@@ -1,10 +1,15 @@
-<nav class="header__background">
-    <div class="header__container">
-        <a class="header__nav--title" routerLink="home" routerLinkActive="active">
-            Drew Post
-        </a>
-        <a *ngFor="let headerItem of headerItems" class="header__nav--link" routerLink="{{ headerItem.route }}" routerLinkActive="active">
-            {{ headerItem.title }}
-        </a>
-    </div>
+<nav class="header">
+  <ul class="header__container">
+    <li>
+      <a class="header__nav--title" routerLink="home" routerLinkActive="active">
+        Drew Post
+      </a>
+    </li>
+    <li *ngFor="let headerItem of headerItems">
+      <a class="header__nav--link" routerLink="{{ headerItem.route }}"
+        routerLinkActive="active">
+        {{ headerItem.title }}
+      </a>
+    </li>
+  </ul>
 </nav>

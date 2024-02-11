@@ -1,4 +1,35 @@
 <pw-nav-button-header [previousRoute]="'../andioop'" [nextRoute]="'../chatapp'"></pw-nav-button-header>
 <div class="meet-the-team">
-    <pw-coming-soon></pw-coming-soon>
+  <div class="meet-the-team__text-container">
+    <div class="meet-the-team__title-container">
+        <h2 class="meet-the-team__title-first">Meet The Team</h2>
+        <h2 class="meet-the-team__title-second"> Project</h2>
+    </div>
+    <div class="meet-the-team__find-out-more-container">
+      <p>Find the Github Repository for this project: <a class="meet-the-team__find-out-more-link" href={{projectDetails.link}} target="_blank">here</a>.</p>
+    </div>
+    <div class="meet-the-team__tech-stack-container">
+        <pw-project-label
+        [title]="'Tech Stack'"
+        [tags]="projectDetails.techDescription"
+        >
+        </pw-project-label>
+    </div>
+    <div class="meet-the-team__desc-container">
+        <p class="meet-the-team__description">
+          While learning Angular in 2022, I created this small project that showcases users as team members and displays their information, allowing for ascending/descending sort, search functionality, and a grid/list view toggle.
+          <br><br> This web app uses an Angular service to call the Random Users API and retrieve 50 random users. This data is then sent to a parent component that displays the UI based on default settings (a grid view of all users with no sorting done yet). When a user toggles between grid or list view, searches for a specific team member's first or last name, or filters the team members in ascending or descending order, they interact with a search and filter component that emits a corresponding event back to the parent component. The parent component then handles the functionality determined by that event, and gives that subsequent list of users to the gird or list view component to be displayed.
+          <br><br> By doing this project I was better able to understand how Angular services and components interact with one another as well as how to handle inputs and outputs in certain components. Additionally, it allowed me to get more hands on experience writing unit tests. In the future I hope to improve upon these unit tests, potentially implement lazy loading of the components in the app, and further clean up and style the UI.
+        </p>
+    </div>
+</div>
+<div class="meet-the-team__picture-container">
+  <figure>
+    <carousel [noPause]="false" [isAnimated]="true">
+      <slide *ngFor="let imagePath of projectDetails.imageArray">
+        <img src="{{imagePath}}" alt="GIFs demonstrating the app's functionality" style="display: flex; max-width: 650px; border: 2px solid var(--brown);">
+      </slide>
+    </carousel>
+  </figure>
+</div>
 </div>

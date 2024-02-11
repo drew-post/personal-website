@@ -1,5 +1,5 @@
 :host .sygnomics {
-  padding: 30px 30px 30px 55px;
+  padding: 30px 0 30px 40px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -50,7 +50,7 @@
     font-style: italic;
     padding-right: 10px;
     text-decoration: underline dotted;
-    text-decoration-color: var(--green);
+    text-decoration-color: var(--gray-blue);
     text-decoration-thickness: 4px;
   }
 
@@ -72,9 +72,9 @@
   }
 
   &__find-out-more-link {
-    color: var(--light-red);
+    color: var(--light-blue);
     text-decoration: underline;
-    text-decoration-color: var(--light-red);
+    text-decoration-color: var(--light-blue);
     text-decoration-thickness: 3px;
   }
 
@@ -150,6 +150,10 @@
     }
 
     &__title-first {
+      align-self: center;
+    }
+
+    &__find-out-more-container {
       align-self: center;
     }
   }
