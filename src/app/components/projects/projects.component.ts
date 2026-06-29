@@ -33,30 +33,6 @@ export class ProjectsComponent implements OnInit {
       tags: ["Angular", "Typescript"],
       imagePath: "meetTheTeamHomepage.jpg"
     },
-    {
-      title: "Chat App",
-      route: "chatapp",
-      tags: ["Angular", "Typescript", "Node.js"],
-      imagePath: "chatApp.jpg"
-    },
-    {
-      title: "Weather App",
-      route: "weatherapp",
-      tags: ["Angular", "Angular Material", "Typescript"],
-      imagePath: "weatherApp.jpg"
-    },
-    {
-      title: "Target Sum Mobile Game",
-      route: "targetsumgame",
-      tags: ["React Native"],
-      imagePath: "targetSumGame.jpg"
-    },
-    {
-      title: "Bakesale For Good App",
-      route: "bakesaleapp",
-      tags: ["React Native"],
-      imagePath: "bakeSale.jpg"
-    }
   ]
 
   constructor() { }

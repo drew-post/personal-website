@@ -31,22 +31,6 @@ const routes: Routes = [
     loadChildren: () => import('./components/sygnomics/sygnomics.module').then(m => m.SygnomicsModule),
   },
   {
-    path: 'projects/targetsumgame',
-    loadChildren: () => import('./components/target-sum-game/target-sum-game.module').then(m => m.TargetSumGameModule),
-  },
-  {
-    path: 'projects/bakesaleapp',
-    loadChildren: () => import('./components/bakesale-app/bakesale-app.module').then(m => m.BakesaleAppModule)
-  },
-  {
-    path: 'projects/weatherapp',
-    loadChildren: () => import('./components/weather-app/weather-app.module').then(m =>m.WeatherAppModule)
-  },
-  {
-    path: 'projects/chatapp',
-    loadChildren: () => import('./components/chat-app/chat-app.module').then(m => m.ChatAppModule)
-  },
-  {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full'
